@@ -11,7 +11,7 @@ Projektbericht
          - bspw. URIS in Anführungszeichen
          - bspw. oben ausgewiesene aber nicht erstellte "Klassen" (?)
          - bspw. Großbuchstaben nicht vergeben bei "prefLabel"
-   - Debugging 
+   - Debugging per skos validator per Github Checks
 
 
 Projekthistorie
