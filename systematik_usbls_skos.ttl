@@ -159,7 +159,7 @@
  skos:prefLabel "Musikwissenschaft und Teildisziplinen"@de ;
  skos:prefLabel "Musicology and sub-disciplines"@en ;  
  skos:altLabel "Systematische Musikwissenschaft"@de, "Kognitive Musikwissenschaft"@de, "Musikethnologie"@de, "Ethnomusikologie"@de, "Vergleichende Musikwissenschaft"@de, "Populäre Musik"@de ;
- skos:notation "K640-K6499" ;
+ skos:notation "K6400-K6499" ;
  skos:inScheme <Lesesaal> . 
 
 <K6500-> a skos:Concept ;
