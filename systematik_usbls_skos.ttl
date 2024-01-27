@@ -4,6 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
+
 <Lesesaal> a skos:ConceptScheme ;
  skos:prefLabel "Systematik des Lesesaals der USB Köln"@de ;                            
  dct:title "Systematik des Lesesaals der USB Köln"@de ; 
