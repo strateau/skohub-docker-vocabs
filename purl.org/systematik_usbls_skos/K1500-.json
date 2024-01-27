@@ -5,13 +5,13 @@
     "de": "Bestands- und Werkkataloge"
   },
   "altLabel": {
-    "en": [
-      "Catalog",
-      "Inventories Catalog"
-    ],
     "de": [
       "Bestandskatalog",
       "Werkkatalog"
+    ],
+    "en": [
+      "Catalog",
+      "Inventories Catalog"
     ]
   },
   "notation": [

@@ -2,8 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K6500-",
   "type": "Concept",
   "prefLabel": {
-    "en": "regional musicology",
-    "de": "Regionale Musikwissenschaft"
+    "de": "Regionale Musikwissenschaft",
+    "en": "regional musicology"
   },
   "notation": [
     "K6500-K6699"

@@ -2,8 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K6300-",
   "type": "Concept",
   "prefLabel": {
-    "en": "biographical reference works performers",
-    "de": "Biographische Nachschlagewerke Interpreten"
+    "de": "Biographische Nachschlagewerke Interpreten",
+    "en": "biographical reference works performers"
   },
   "notation": [
     "K6300-6399"

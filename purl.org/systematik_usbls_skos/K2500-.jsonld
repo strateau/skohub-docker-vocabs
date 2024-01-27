@@ -5,27 +5,27 @@
     "de": "Einzelne Kunstgattungen"
   },
   "altLabel": {
+    "de": [
+      "Malerei",
+      "Plastik",
+      "Grafik"
+    ],
     "en": [
       "art genre",
       "painting",
       "plastic arts",
       "graphics"
-    ],
-    "de": [
-      "Malerei",
-      "Plastik",
-      "Grafik"
     ]
   },
   "hiddenLabel": {
-    "en": [
-      "drawing",
-      "graphic"
-    ],
     "de": [
       "Graphik",
       "Zeichnung",
       "Skulptur"
+    ],
+    "en": [
+      "drawing",
+      "graphic"
     ]
   },
   "notation": [

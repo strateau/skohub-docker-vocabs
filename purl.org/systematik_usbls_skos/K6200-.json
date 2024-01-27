@@ -2,8 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K6200-",
   "type": "Concept",
   "prefLabel": {
-    "en": "biographical reference works composers",
-    "de": "Biographische Nachschlagewerke Komponisten"
+    "de": "Biographische Nachschlagewerke Komponisten",
+    "en": "biographical reference works composers"
   },
   "notation": [
     "K6200-K6299"

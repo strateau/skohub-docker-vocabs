@@ -53,8 +53,8 @@
     {
       "id": "https://purl.org/systematik_usbls_skos/K2100-",
       "prefLabel": {
-        "en": "art history - introductions and manuals",
-        "de": "Allgemeine Kunstgeschichte - Einführungen und Handbücher"
+        "de": "Allgemeine Kunstgeschichte - Einführungen und Handbücher",
+        "en": "art history - introductions and manuals"
       }
     },
     {
@@ -66,15 +66,15 @@
     {
       "id": "https://purl.org/systematik_usbls_skos/K3000-",
       "prefLabel": {
-        "en": "art history - Germany",
-        "de": "Kunstgeschichte Deutschland"
+        "de": "Kunstgeschichte Deutschland",
+        "en": "art history - Germany"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K4000-",
       "prefLabel": {
-        "en": "non-European art history",
-        "de": "Außereuropäische Kunstgeschichte"
+        "de": "Außereuropäische Kunstgeschichte",
+        "en": "non-European art history"
       }
     },
     {
@@ -86,57 +86,57 @@
     {
       "id": "https://purl.org/systematik_usbls_skos/K6000-",
       "prefLabel": {
-        "en": "musicology",
-        "de": "Musikwissenschaft Allgemeines"
+        "de": "Musikwissenschaft Allgemeines",
+        "en": "musicology"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6200-",
       "prefLabel": {
-        "en": "biographical reference works composers",
-        "de": "Biographische Nachschlagewerke Komponisten"
+        "de": "Biographische Nachschlagewerke Komponisten",
+        "en": "biographical reference works composers"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6300-",
       "prefLabel": {
-        "en": "biographical reference works performers",
-        "de": "Biographische Nachschlagewerke Interpreten"
+        "de": "Biographische Nachschlagewerke Interpreten",
+        "en": "biographical reference works performers"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6400-",
       "prefLabel": {
-        "en": "Musicology and sub-disciplines",
-        "de": "Musikwissenschaft und Teildisziplinen"
+        "de": "Musikwissenschaft und Teildisziplinen",
+        "en": "Musicology and sub-disciplines"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6500-",
       "prefLabel": {
-        "en": "regional musicology",
-        "de": "Regionale Musikwissenschaft"
+        "de": "Regionale Musikwissenschaft",
+        "en": "regional musicology"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6700-",
       "prefLabel": {
-        "en": "historical musicology",
-        "de": "Historische Musikwissenschaft"
+        "de": "Historische Musikwissenschaft",
+        "en": "historical musicology"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K7400-",
       "prefLabel": {
-        "en": "musical genres",
-        "de": "Musikalische Gattungen"
+        "de": "Musikalische Gattungen",
+        "en": "musical genres"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K7900-",
       "prefLabel": {
-        "en": "musical instruments",
-        "de": "Musikinstrumente"
+        "de": "Musikinstrumente",
+        "en": "musical instruments"
       }
     },
     {

@@ -2,8 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K3000-",
   "type": "Concept",
   "prefLabel": {
-    "en": "art history - Germany",
-    "de": "Kunstgeschichte Deutschland"
+    "de": "Kunstgeschichte Deutschland",
+    "en": "art history - Germany"
   },
   "notation": [
     "K3000-K3999"

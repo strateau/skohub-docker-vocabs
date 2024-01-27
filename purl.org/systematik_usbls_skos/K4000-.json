@@ -2,8 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K4000-",
   "type": "Concept",
   "prefLabel": {
-    "en": "non-European art history",
-    "de": "Außereuropäische Kunstgeschichte"
+    "de": "Außereuropäische Kunstgeschichte",
+    "en": "non-European art history"
   },
   "notation": [
     "K4000-K4049"

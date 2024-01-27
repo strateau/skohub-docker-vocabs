@@ -5,14 +5,14 @@
     "de": "Kunsttheorie"
   },
   "altLabel": {
+    "de": [
+      "Ästhetik",
+      "Kunstphilosophie"
+    ],
     "en": [
       "aesthetics",
       "philosophy of art",
       "art theory"
-    ],
-    "de": [
-      "Ästhetik",
-      "Kunstphilosophie"
     ]
   },
   "notation": [

@@ -5,13 +5,13 @@
     "de": "Nachschlagewerke und Enzyklopädien"
   },
   "altLabel": {
-    "en": [
-      "Encyclopedia",
-      "Lexicon"
-    ],
     "de": [
       "Lexika",
       "Lexikon"
+    ],
+    "en": [
+      "Encyclopedia",
+      "Lexicon"
     ]
   },
   "notation": [

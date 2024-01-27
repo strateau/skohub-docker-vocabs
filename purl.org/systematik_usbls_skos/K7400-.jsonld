@@ -2,8 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K7400-",
   "type": "Concept",
   "prefLabel": {
-    "en": "musical genres",
-    "de": "Musikalische Gattungen"
+    "de": "Musikalische Gattungen",
+    "en": "musical genres"
   },
   "altLabel": {
     "de": [

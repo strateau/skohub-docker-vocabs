@@ -2,16 +2,16 @@
   "id": "https://purl.org/systematik_usbls_skos/K7900-",
   "type": "Concept",
   "prefLabel": {
-    "en": "musical instruments",
-    "de": "Musikinstrumente"
+    "de": "Musikinstrumente",
+    "en": "musical instruments"
   },
   "altLabel": {
-    "en": [
-      "musical instrument"
-    ],
     "de": [
       "Musikinstrument",
       "Instrument"
+    ],
+    "en": [
+      "musical instrument"
     ]
   },
   "notation": [
