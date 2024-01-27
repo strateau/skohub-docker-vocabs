@@ -34,3 +34,7 @@ Projekthistorie
     - Aufteilung von Aufgaben
 - Überführung der Felder aus "USBKöln".yml in SKOS per Hand
 - 
+
+
+Learnings
+- update SKOS dauert einige Minuten
