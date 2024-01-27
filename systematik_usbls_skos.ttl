@@ -66,7 +66,7 @@
  skos:inScheme <Lesesaal> .                      #unklar, wie zählung 1-999 aus yaml hier repräsentiert werden könnte, erstmal alle stellen aufgenommen...ebenso "heading: kunstgeschichte"
 
 <K1000-> a skos:concept ;
- skos:prefLabel "Nachschlagewerke und Enzyklopädien" ;
+ skos:prefLabel "Nachschlagewerke und Enzyklopädien"@de ;
  skos:altLabel "Lexika"@de, "Lexikon"@de, "Encyclopedia"@en, "Lexicon"@en ;
  skos:notation "K1000-K1499" ;
  skos:inScheme <Lesesaal> .
@@ -106,14 +106,14 @@
  skos:inScheme <Lesesaal> . 
 
 <K2500-> a skos:concept ;
- skos:prefLabel "Einzelne Kunstgattungen"@de  ;
+ skos:prefLabel "Einzelne Kunstgattungen"@de ;
  skos:altLabel "Malerei"@de, "Plastik"@de, "Grafik"@de, "art genre"@en, "painting"@en, "plastic arts"@en, "graphics"@en ; 
  skos:hiddenLabel "Graphik"@de, "Zeichnung"@de, "Skulptur"@de, "drawing"@en, "graphic"@en ;
  skos:notation "K2500-K2999" ;
  skos:inScheme <Lesesaal> .  #eventuell kann hier altLabel durch Subject ersetzt werden.
 
 <K3000-> a skos:concept ;
- skos:prefLabel "Kunstgeschichte Deutschland" ;
+ skos:prefLabel "Kunstgeschichte Deutschland"@de ;
  skos:prefLabel "art history - Germany"@en ;
  skos:notation "K3000-K3999" ;
  skos:inScheme <Lesesaal> . 
@@ -167,7 +167,7 @@
  skos:inScheme <Lesesaal> . 
 
 <K6700-> a skos:concept ;
- skos:prefLabel "Historische Musikwissenschaft" ;
+ skos:prefLabel "Historische Musikwissenschaft"@de ;
  skos:prefLabel "historical musicology"@en ;
  skos:altLabel "Musikgeschichte"@de, "Musik / Historiographie"@de, "Musik / Geschichtsschreibung"@de, "Musikhistoriographie"@de, "Musikhistoriografie"@de ; 
  skos:notation "K6700-K7399" ;
