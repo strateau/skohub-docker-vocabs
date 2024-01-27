@@ -14,7 +14,7 @@
 
 #ist hier die anforderung nach min 2 weiteren informativen aussagen erfüllt? zählt bspw. prefLabel/hasTopConcept dazu? creator, definition, issued... das sind schon 2.
 
-<A> a skos:concept ;
+<A> a skos:Concept ;
  skos:prefLabel "Allgemeines"@de ;
  skos:notation "A" ;
  skos:narrower <A1->, <A190->, <A400->, <A4000->, <A4700->, <A6000->, <A6100->, <A6600->, <A9200->, <A9400->, <A9461-> ;
@@ -26,7 +26,7 @@
 
 #GG
 
-<K> a skos:concept ;
+<K> a skos:Concept ;
  skos:prefLabel "Kunstgeschichte"@de ;
  skos:altLabel "Art history"@en, "Musicology"@en ; 
  skos:notation "K" ;
@@ -57,7 +57,7 @@
 
 #A-Unterebenen
 
-<K1-> a skos:concept ;
+<K1-> a skos:Concept ;
  skos:preflabel "Archäologie und Antike Kunst"@de ;
  skos:altLabel "Archaeology"@en, "Ancient art"@en ;
  skos:notation "K1-K999" ;
@@ -65,25 +65,25 @@
  skos:broadMatch <https://www.wikidata.org/wiki/Q486761> ;
  skos:inScheme <Lesesaal> .                      #unklar, wie zählung 1-999 aus yaml hier repräsentiert werden könnte, erstmal alle stellen aufgenommen...ebenso "heading: kunstgeschichte"
 
-<K1000-> a skos:concept ;
+<K1000-> a skos:Concept ;
  skos:prefLabel "Nachschlagewerke und Enzyklopädien"@de ;
  skos:altLabel "Lexika"@de, "Lexikon"@de, "Encyclopedia"@en, "Lexicon"@en ;
  skos:notation "K1000-K1499" ;
  skos:inScheme <Lesesaal> .
 
-<K1500-> a skos:concept ;
+<K1500-> a skos:Concept ;
  skos:prefLabel "Bestands- und Werkkataloge"@de ;
  skos:altLabel "Bestandskatalog"@de, "Werkkatalog"@de, "Catalog"@en, "Inventories Catalog"@en ;
  skos:notation "K1500-K1699" ;
  skos:inScheme <Lesesaal> .
 
-<K1700-> a skos:concept ;
+<K1700-> a skos:Concept ;
  skos:prefLabel "Quellenschriften"@de ;
  skos:altLabel "Quellen"@de ;
  skos:notation "K1700-K1999" ;
  skos:inScheme <Lesesaal> .
 
-<K2000-> a skos:concept ;
+<K2000-> a skos:Concept ;
  skos:prefLabel "Kunsttheorie"@de ;
  skos:altLabel "Ästhetik"@de, "Kunstphilosophie"@de, "aesthetics"@en, "philosophy of art"@en, "art theory"@en;
  skos:hiddenLabel "Kunsttheorie"@de ;
@@ -91,7 +91,7 @@
  skos:notation "K2000-K2049" ;
  skos:inScheme <Lesesaal> .
 
-<K2050-> a skos:concept ;
+<K2050-> a skos:Concept ;
  skos:prefLabel "Kunstwissenschaft (Fach)"@de ;
  skos:hiddenLabel "Kunstwissenschaft"@de ;
  skos:exactMatch "https://lobid.org/gnd/4120632-0" ;
@@ -99,39 +99,39 @@
  skos:notation "K2050-K2099" ;
  skos:inScheme <Lesesaal> .      #den hiddenlabel tippfehler kusn* lasse ich ab jetzt weg
 
-<K2100-> a skos:concept ;
+<K2100-> a skos:Concept ;
  skos:prefLabel "Allgemeine Kunstgeschichte - Einführungen und Handbücher"@de ;
  skos:prefLabel "art history - introductions and manuals"@en ;
  skos:notation "K2100-K2499" ;
  skos:inScheme <Lesesaal> . 
 
-<K2500-> a skos:concept ;
+<K2500-> a skos:Concept ;
  skos:prefLabel "Einzelne Kunstgattungen"@de ;
  skos:altLabel "Malerei"@de, "Plastik"@de, "Grafik"@de, "art genre"@en, "painting"@en, "plastic arts"@en, "graphics"@en ; 
  skos:hiddenLabel "Graphik"@de, "Zeichnung"@de, "Skulptur"@de, "drawing"@en, "graphic"@en ;
  skos:notation "K2500-K2999" ;
  skos:inScheme <Lesesaal> .  #eventuell kann hier altLabel durch Subject ersetzt werden.
 
-<K3000-> a skos:concept ;
+<K3000-> a skos:Concept ;
  skos:prefLabel "Kunstgeschichte Deutschland"@de ;
  skos:prefLabel "art history - Germany"@en ;
  skos:notation "K3000-K3999" ;
  skos:inScheme <Lesesaal> . 
 
-<K4000-> a skos:concept ;
+<K4000-> a skos:Concept ;
  skos:prefLabel "Außereuropäische Kunstgeschichte"@de ;
  skos:prefLabel "non-European art history"@en ;
  skos:notation "K4000-K4049" ;
  skos:inScheme <Lesesaal> . 
 
-<K4050-> a skos:concept ;
+<K4050-> a skos:Concept ;
  skos:prefLabel "Übrige europäische Kunstgeschichte"@de ;
  skos:scopeNote "enthält alles zur europäischen kunstgeschichte, außer was unter K3000-"@de ;
  skos:editorialNote "eventuell nochmal feiner gliedern, nach ländern bspw."@de ;
  skos:notation "K4050-K5999" ;
  skos:inScheme <Lesesaal> . 
 
-<K6000-> a skos:concept ;
+<K6000-> a skos:Concept ;
  skos:prefLabel "Musikwissenschaft Allgemeines"@de ;
  skos:prefLabel "musicology"@en ;
  skos:altLabel "musical research"@en ;
@@ -141,53 +141,53 @@
  skos:notation "K6000-K6199" ;
  skos:inScheme <Lesesaal> . #wie heading musikwissenschaft unterbringen? Musikgeschichte nicht eigentlich als hiddenLabel, eher als verwandter begriff. da der aber nicht im vokabular ist, hab ich erstmal hiddenLabdel gewählt
 
-<K6200-> a skos:concept ;
+<K6200-> a skos:Concept ;
  skos:prefLabel "Biographische Nachschlagewerke Komponisten"@de ;
  skos:prefLabel "biographical reference works composers"@en ;
  skos:notation "K6200-K6299" ;
  skos:inScheme <Lesesaal> . 
 
-<K6300-> a skos:concept ;
+<K6300-> a skos:Concept ;
  skos:prefLabel "Biographische Nachschlagewerke Interpreten"@de ;
  skos:prefLabel "biographical reference works performers"@en ;
  skos:notation "K6300-6399" ;
  skos:inScheme <Lesesaal> . 
 
-<K6400-> a skos:concept ;
+<K6400-> a skos:Concept ;
  skos:prefLabel "Musikwissenschaft und Teildisziplinen"@de ;
  skos:prefLabel "Musicology and sub-disciplines"@en ;  
  skos:altLabel "Systematische Musikwissenschaft"@de, "Kognitive Musikwissenschaft"@de, "Musikethnologie"@de, "Ethnomusikologie"@de, "Vergleichende Musikwissenschaft"@de, "Populäre Musik"@de ;
  skos:notation "K640-K6499" ;
  skos:inScheme <Lesesaal> . 
 
-<K6500-> a skos:concept ;
+<K6500-> a skos:Concept ;
  skos:prefLabel "Regionale Musikwissenschaft"@de ;
  skos:prefLabel "regional musicology"@en ;
  skos:notation "K6500-K6699" ;
  skos:inScheme <Lesesaal> . 
 
-<K6700-> a skos:concept ;
+<K6700-> a skos:Concept ;
  skos:prefLabel "Historische Musikwissenschaft"@de ;
  skos:prefLabel "historical musicology"@en ;
  skos:altLabel "Musikgeschichte"@de, "Musik / Historiographie"@de, "Musik / Geschichtsschreibung"@de, "Musikhistoriographie"@de, "Musikhistoriografie"@de ; 
  skos:notation "K6700-K7399" ;
  skos:inScheme <Lesesaal> . 
 
-<K7400-> a skos:concept ;
+<K7400-> a skos:Concept ;
  skos:prefLabel "Musikalische Gattungen"@de  ;
  skos:prefLabel "musical genres"@en ;
  skos:altLabel "Oper"@de, "Operette"@de, "Sinfonie"@de ;
  skos:notation "K7400-K7899" ;
  skos:inScheme <Lesesaal> .  #zuordnung oper etc. inhaltlich eventuell nicht sinnvoll 
 
-<K7900-> a skos:concept ;
+<K7900-> a skos:Concept ;
  skos:prefLabel "Musikinstrumente"@de ;
  skos:prefLabel "musical instruments"@en ;
  skos:altLabel "Musikinstrument"@de, "Instrument"@de, "musical instrument"@en ;
  skos:notation "K7900-K8099" ;
  skos:inScheme <Lesesaal> . 
 
-<K8100-> a skos:concept ;
+<K8100-> a skos:Concept ;
  skos:prefLabel "Komponisten: Leben und Werk"@de ;
  skos:altLabel "composers: life and work"@en, "Komponisten: Biografien"@de, "composers: life and works"@en ;
  skos:notation "K8100-" ;
