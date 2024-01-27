@@ -86,7 +86,7 @@
 <K2000-> a skos:Concept ;
  skos:prefLabel "Kunsttheorie"@de ;
  skos:altLabel "Ästhetik"@de, "Kunstphilosophie"@de, "aesthetics"@en, "philosophy of art"@en, "art theory"@en;
- skos:hiddenLabel "Kunsttheorie"@de ;
+ # skos:hiddenLabel "Kunsttheorie"@de ;
  skos:exactMatch "https://www.wikidata.org/wiki/Q35986", "https://lobid.org/gnd/4000626-8", "https://www.wikidata.org/wiki/Q1414089", "https://www.wikidata.org/wiki/Q3745510" ;
  skos:notation "K2000-K2049" ;
  skos:inScheme <Lesesaal> .
