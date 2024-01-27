@@ -20,7 +20,8 @@
   "broader": {
     "id": "https://purl.org/systematik_usbls_skos/K",
     "prefLabel": {
-      "de": "Kunstgeschichte"
+      "de": "Kunstgeschichte",
+      "en": "Art history"
     }
   },
   "inScheme": [

@@ -2,11 +2,11 @@
   "id": "https://purl.org/systematik_usbls_skos/K",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kunstgeschichte"
+    "de": "Kunstgeschichte",
+    "en": "Art history"
   },
   "altLabel": {
     "en": [
-      "Art history",
       "Musicology"
     ]
   },
@@ -144,6 +144,11 @@
       "prefLabel": {
         "de": "Komponisten: Leben und Werk"
       }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://www.wikidata.org/wiki/Q50637"
     }
   ],
   "inScheme": [
