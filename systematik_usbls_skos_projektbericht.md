@@ -7,6 +7,11 @@ Projektbericht
 2. Herangehensweise
 3. 
 4. Probleme
+   - Fehlermeldungen aufgrund von falscher Zeichensetzungen, Syntax und Adressierungen
+         - bspw. URIS in Anführungszeichen
+         - bspw. oben ausgewiesene aber nicht erstellte "Klassen" (?)
+         - bspw. Großbuchstaben nicht vergeben bei "prefLabel"
+   - Debugging 
 
 
 Projekthistorie
