@@ -17,7 +17,7 @@
 <A> a skos:Concept ;
  skos:prefLabel "Allgemeines"@de ;
  skos:notation "A" ;
- skos:narrower <A1->, <A190->, <A400->, <A4000->, <A4700->, <A6000->, <A6100->, <A6600->, <A9200->, <A9400->, <A9461-> ;
+ # skos:narrower <A1->, <A190->, <A400->, <A4000->, <A4700->, <A6000->, <A6100->, <A6600->, <A9200->, <A9400->, <A9461-> ;
  skos:topConceptOf <Lesesaal> .
 
 #B
