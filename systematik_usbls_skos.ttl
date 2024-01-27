@@ -87,15 +87,15 @@
  skos:prefLabel "Kunsttheorie"@de ;
  skos:altLabel "Ästhetik"@de, "Kunstphilosophie"@de, "aesthetics"@en, "philosophy of art"@en, "art theory"@en;
  # skos:hiddenLabel "Kunsttheorie"@de ;
- skos:exactMatch "https://www.wikidata.org/wiki/Q35986", "https://lobid.org/gnd/4000626-8", "https://www.wikidata.org/wiki/Q1414089", "https://www.wikidata.org/wiki/Q3745510" ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q35986>, <https://lobid.org/gnd/4000626-8>, <https://www.wikidata.org/wiki/Q1414089>, <https://www.wikidata.org/wiki/Q3745510> ;
  skos:notation "K2000-K2049" ;
  skos:inScheme <Lesesaal> .
 
 <K2050-> a skos:Concept ;
  skos:prefLabel "Kunstwissenschaft (Fach)"@de ;
  skos:hiddenLabel "Kunstwissenschaft"@de ;
- skos:exactMatch "https://lobid.org/gnd/4120632-0" ;
- skos:closeMatch "https://id.loc.gov/authorities/subjects/sh85007488.html, https://lobid.org/gnd/4138803-3" ;
+ skos:exactMatch <https://lobid.org/gnd/4120632-0> ;
+ skos:closeMatch <https://id.loc.gov/authorities/subjects/sh85007488.html>, <https://lobid.org/gnd/4138803-3> ;
  skos:notation "K2050-K2099" ;
  skos:inScheme <Lesesaal> .      #den hiddenlabel tippfehler kusn* lasse ich ab jetzt weg
 
@@ -136,8 +136,8 @@
  skos:prefLabel "musicology"@en ;
  skos:altLabel "musical research"@en ;
  skos:hiddenLabel "Musikgeschichte"@de ;
- skos:exactMatch "https://lobid.org/gnd/4130526-7" ;
- skos:closeMatch "https://id.loc.gov/authorities/subjects/sh85089048.html" ;
+ skos:exactMatch <https://lobid.org/gnd/4130526-7> ;
+ skos:closeMatch <https://id.loc.gov/authorities/subjects/sh85089048.html> ;
  skos:notation "K6000-K6199" ;
  skos:inScheme <Lesesaal> . #wie heading musikwissenschaft unterbringen? Musikgeschichte nicht eigentlich als hiddenLabel, eher als verwandter begriff. da der aber nicht im vokabular ist, hab ich erstmal hiddenLabdel gewählt
 
