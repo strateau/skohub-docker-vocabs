@@ -10,7 +10,7 @@
  dct:creator "https://d-nb.info/gnd/40600-4" ; #Identifier
  dct:issued "2022-11-08" ;
  skos:definition "Begrenzte SKOS-Version der Systematik auf https://github.com/oflimm/openbib/blob/master/portal/perl/conf/usbls.yml" ;
- skos:hasTopConcept <A>, <B>, <G>, <GG>, <K>, <L>, <MW>, <N>, <PH>, <PP>, <PS>, <R>, <Rh>, <T>, <V>, <W> .
+ skos:hasTopConcept <A>, <K> .# <B>, <G>, <GG>, <K>, <L>, <MW>, <N>, <PH>, <PP>, <PS>, <R>, <Rh>, <T>, <V>, <W> .
 
 #ist hier die anforderung nach min 2 weiteren informativen aussagen erfüllt? zählt bspw. prefLabel/hasTopConcept dazu? creator, definition, issued... das sind schon 2.
 
