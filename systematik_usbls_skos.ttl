@@ -58,7 +58,7 @@
 #A-Unterebenen
 
 <K1-> a skos:Concept ;
- skos:preflabel "Archäologie und Antike Kunst"@de ;
+ skos:prefLabel "Archäologie und Antike Kunst"@de ;
  skos:altLabel "Archaeology"@en, "Ancient art"@en ;
  skos:notation "K1-K999" ;
  skos:exactMatch <https://www.wikidata.org/wiki/Q23498> ;
