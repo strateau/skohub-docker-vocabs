@@ -2,12 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/B",
   "type": "Concept",
   "prefLabel": {
-    "de": "Buch-, Bibliotheks- und Informationswesen"
-  },
-  "altLabel": {
-    "en": [
-      "Library and Information Science"
-    ]
+    "de": "Buch-, Bibliotheks- und Informationswesen",
+    "en": "Library and Information Science"
   },
   "notation": [
     "B"
