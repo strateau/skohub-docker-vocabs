@@ -100,7 +100,7 @@
  skos:topConceptOf <Lesesaal> .
  
 <T> a skos:Concept ;
- skos:prefLabel "Theologie"@de, "Religionswissenschaft"@de "Theology"@en ;
+ skos:prefLabel "Theologie"@de, "Religionswissenschaft"@de, "Theology"@en ;
  # skos:altLabel "Gottesgelehrsamkeit"@de, "Gottesgelehrtheit"@de ;
  skos:exactMatch <https://www.wikidata.org/wiki/Q34178> ;
  skos:notation "T" ;
