@@ -17,7 +17,7 @@
 #ist hier die anforderung nach min 2 weiteren informativen aussagen erfüllt? zählt bspw. prefLabel/hasTopConcept dazu? creator, definition, issued... das sind schon 2.
 
 <A> a skos:Concept ;
- skos:prefLabel "Allgemeines"@de ;
+ skos:prefLabel "Allgemeines"@de, "General"@en ;
  skos:notation "A" ;
  # skos:narrower <A1->, <A190->, <A400->, <A4000->, <A4700->, <A6000->, <A6100->, <A6600->, <A9200->, <A9400->, <A9461-> ;
  skos:topConceptOf <Lesesaal> .
@@ -41,8 +41,9 @@
  skos:topConceptOf <Lesesaal> .
  
 <K> a skos:Concept ;
- skos:prefLabel "Kunstgeschichte"@de ;
- skos:altLabel "Art history"@en, "Musicology"@en ; 
+ skos:prefLabel "Kunstgeschichte"@de, "Art history"@en ;
+ skos:altLabel "Musicology"@en ; 
+ skos:exactMatch <https://www.wikidata.org/wiki/Q50637> ;
  skos:notation "K" ;
  skos:narrower <K1->, <K1000->, <K1500->, <K1700->, <K2000->, <K2050->, <K2100->, <K2500->, <K3000->, <K4000->, <K4050->, <K6000->, <K6200->, <K6300->, <K6400->, <K6500->, <K6700->, <K7400->, <K7900->, <K8100-> ; 
  skos:topConceptOf <Lesesaal> .
