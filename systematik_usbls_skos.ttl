@@ -164,7 +164,7 @@
  skos:inScheme <Lesesaal> .
 
 <A9200-> a skos:Concept ;
- skos:prefLabel "Studienführer - Allgemein"@de, skos:altLabel "Study guides - General"@en ;
+ skos:prefLabel "Studienführer - Allgemein"@de, "Study guides - General"@en ;
  skos:notation "A9200-A9399" ;
  skos:inScheme <Lesesaal> .
 
@@ -221,8 +221,7 @@
  skos:inScheme <Lesesaal> .      #den hiddenlabel tippfehler kusn* lasse ich ab jetzt weg
 
 <K2100-> a skos:Concept ;
- skos:prefLabel "Allgemeine Kunstgeschichte - Einführungen und Handbücher"@de ;
- skos:prefLabel "art history - Introductions and manuals"@en ;
+ skos:prefLabel "Allgemeine Kunstgeschichte - Einführungen und Handbücher"@de, "Art history - Introductions and manuals"@en ;
  skos:notation "K2100-K2499" ;
  skos:inScheme <Lesesaal> . 
 
