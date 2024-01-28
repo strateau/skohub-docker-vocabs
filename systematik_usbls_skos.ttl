@@ -121,109 +121,99 @@
 
 #A-Unterebenen
 <A1-> a skos:Concept ;
-skos:prefLabel "Allgemeine Wissenschaftskunde"@de ;
- skos:altLabel "General scientific studies"@en ;
+ skos:prefLabel "Allgemeine Wissenschaftskunde"@de, "General scientific studies"@en ;
  skos:notation "A1-A189" ;
  skos:scopeNote "Wissenschaftskunde ist als systematisierend-beschreibende Darstellung aller Wissenschaften, ihrer Gegenstände und Arbeitsweisen ein traditioneller Lehrgegenstand in der bibliothekarischen und buchhändlerischen Berufsausbildung."@de ; 
  skos:inScheme <Lesesaal> .
 
 <A190-> a skos:Concept ;
-skos:prefLabel "Allgemeine Lexika, Enzyklopädien"@de ;
- skos:altLabel "General lexica, Encyclopedias"@en ;
+ skos:prefLabel "Allgemeine Lexika, Enzyklopädien"@de, "General lexica, Encyclopedias"@en ;
  skos:notation "A190-A399" ;
  skos:inScheme <Lesesaal> .
 
 <A400-> a skos:Concept ;
-skos:prefLabel "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"@de ;
- skos:altLabel "General lexica, Encyclopedias - Individual countries"@en ;
+ skos:prefLabel "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"@de, "General lexica, Encyclopedias - Individual countries"@en ;
  skos:notation "A400-A3999" ;
  skos:inScheme <Lesesaal> .
 
 <A4000-> a skos:Concept ;
-skos:prefLabel "Landeskunde - Deutschland"@de ;
- skos:altLabel "Ortsgeschichte - Deutschland"@de, "Regional Studies - Germany"@en ;
+ skos:prefLabel "Landeskunde - Deutschland"@de, "Regional Studies - Germany"@en ;
+ skos:altLabel "Ortsgeschichte - Deutschland"@de ;
  skos:notation "A4000-A4699" ;
  skos:scopeNote "Beinhaltet diverse Themen wie Geografie, Biologie, Geologie, Sozialwissenschaft und Geschichte von einem Ort."@de ;
  skos:inScheme <Lesesaal> .
 
 <A4700-> a skos:Concept ;
-skos:prefLabel "Allgemeine Lexika und Handbücher über einzelne Länder"@de ;
- skos:altLabel "General lexica and handbooks about individual countries"@en ;
+ skos:prefLabel "Allgemeine Lexika und Handbücher über einzelne Länder"@de, "General lexica and handbooks about individual countries"@en ;
  skos:notation "A4700-A5999" ;
  skos:inScheme <Lesesaal> .
 
 <A6000-> a skos:Concept ;
-skos:prefLabel "Biographische Nachschlagewerke - International"@de ;
- skos:altLabel "Biographical reference works - International"@en ;
+ skos:prefLabel "Biographische Nachschlagewerke - International"@de, "Biographical reference works - International"@en ;
  skos:notation "A6000-A6099" ;
  skos:inScheme <Lesesaal> .
 
 <A6100-> a skos:Concept ;
-skos:prefLabel "Biographische Nachschlagewerke - Deutschland"@de ;
- skos:altLabel "Biographical reference works -  Germany"@en ;
+ skos:prefLabel "Biographische Nachschlagewerke - Deutschland"@de, "Biographical reference works -  Germany"@en ;
  skos:notation "A6100-A6599" ;
  skos:inScheme <Lesesaal> .
 
 <A6600-> a skos:Concept ;
-skos:prefLabel "Biographische Nachschlagewerke - Einzelne Länder"@de ;
- skos:altLabel "Biographical reference works - Individual countries"@en ;
+ skos:prefLabel "Biographische Nachschlagewerke - Einzelne Länder"@de, "Biographical reference works - Individual countries"@en ;
  skos:notation "A6600-A9199" ;
  skos:inScheme <Lesesaal> .
 
 <A9200-> a skos:Concept ;
-skos:prefLabel "Studienführer - Allgemein"@de ;
- skos:altLabel "Study guides - General"@en ;
+ skos:prefLabel "Studienführer - Allgemein"@de, skos:altLabel "Study guides - General"@en ;
  skos:notation "A9200-A9399" ;
  skos:inScheme <Lesesaal> .
 
 <A9400-> a skos:Concept ;
-skos:prefLabel "Medien- und Kommunikationswissenschaft, Publizistik"@de ;
- skos:altLabel "Medienwissenschaft"@de, "Media and Communication Studies"@en ;
+ skos:prefLabel "Medien- und Kommunikationswissenschaft, Publizistik"@de, "Media and Communication Studies"@en ;
+ skos:altLabel "Medienwissenschaft"@de ;
  skos:notation "A9400-A9460" ;
  skos:inScheme <Lesesaal> .
 
 <A9461-> a skos:Concept ;
-skos:prefLabel "Universitäten und Hochschulen"@de ;
- skos:altLabel "Universities and other institutions of tertiary education"@en ;
+ skos:prefLabel "Universitäten und Hochschulen"@de, "Universities and other institutions of tertiary education"@en ;
  skos:notation "A9461-" ;
  skos:inScheme <Lesesaal> .
 
 <K1-> a skos:Concept ;
- skos:prefLabel "Archäologie und Antike Kunst"@de ;
- skos:altLabel "Archaeology"@en, "Ancient art"@en ;
+ skos:prefLabel "Archäologie und Antike Kunst"@de, "Archaeology and ancient art"@en ;
  skos:notation "K1-K999" ;
  skos:exactMatch <https://www.wikidata.org/wiki/Q23498> ;
  skos:broadMatch <https://www.wikidata.org/wiki/Q486761> ;
  skos:inScheme <Lesesaal> .                      #unklar, wie zählung 1-999 aus yaml hier repräsentiert werden könnte, erstmal alle stellen aufgenommen...ebenso "heading: kunstgeschichte"
 
 <K1000-> a skos:Concept ;
- skos:prefLabel "Nachschlagewerke und Enzyklopädien"@de ;
+ skos:prefLabel "Nachschlagewerke und Enzyklopädien"@de, "Reference works and encyclopedias"@en ;
  skos:altLabel "Lexika"@de, "Lexikon"@de, "Encyclopedia"@en, "Lexicon"@en ;
  skos:notation "K1000-K1499" ;
  skos:inScheme <Lesesaal> .
 
 <K1500-> a skos:Concept ;
- skos:prefLabel "Bestands- und Werkkataloge"@de ;
+ skos:prefLabel "Bestands- und Werkkataloge"@de, "Catalogues"@en ;
  skos:altLabel "Bestandskatalog"@de, "Werkkatalog"@de, "Catalog"@en, "Inventories Catalog"@en ;
  skos:notation "K1500-K1699" ;
  skos:inScheme <Lesesaal> .
 
 <K1700-> a skos:Concept ;
- skos:prefLabel "Quellenschriften"@de ;
+ skos:prefLabel "Quellenschriften"@de, "Source documents"@en ;
  skos:altLabel "Quellen"@de ;
  skos:notation "K1700-K1999" ;
  skos:inScheme <Lesesaal> .
 
 <K2000-> a skos:Concept ;
- skos:prefLabel "Kunsttheorie"@de ;
- skos:altLabel "Ästhetik"@de, "Kunstphilosophie"@de, "aesthetics"@en, "philosophy of art"@en, "art theory"@en;
+ skos:prefLabel "Kunsttheorie"@de, "Art theory"@en ;
+ skos:altLabel "Ästhetik"@de, "Kunstphilosophie"@de, "aesthetics"@en, "philosophy of art"@en ;
  # skos:hiddenLabel "Kunsttheorie"@de ;
  skos:exactMatch <https://www.wikidata.org/wiki/Q35986>, <https://lobid.org/gnd/4000626-8>, <https://www.wikidata.org/wiki/Q1414089>, <https://www.wikidata.org/wiki/Q3745510> ;
  skos:notation "K2000-K2049" ;
  skos:inScheme <Lesesaal> .
 
 <K2050-> a skos:Concept ;
- skos:prefLabel "Kunstwissenschaft (Fach)"@de ;
+ skos:prefLabel "Kunstwissenschaft (Fach)"@de, "Art Studies"@en ;
  skos:hiddenLabel "Kunstwissenschaft"@de ;
  skos:exactMatch <https://lobid.org/gnd/4120632-0> ;
  skos:closeMatch <https://id.loc.gov/authorities/subjects/sh85007488.html>, <https://lobid.org/gnd/4138803-3> ;
@@ -232,39 +222,36 @@ skos:prefLabel "Universitäten und Hochschulen"@de ;
 
 <K2100-> a skos:Concept ;
  skos:prefLabel "Allgemeine Kunstgeschichte - Einführungen und Handbücher"@de ;
- skos:prefLabel "art history - introductions and manuals"@en ;
+ skos:prefLabel "art history - Introductions and manuals"@en ;
  skos:notation "K2100-K2499" ;
  skos:inScheme <Lesesaal> . 
 
 <K2500-> a skos:Concept ;
- skos:prefLabel "Einzelne Kunstgattungen"@de ;
+ skos:prefLabel "Einzelne Kunstgattungen"@de, "Individual forms of art"@en ;
  skos:altLabel "Malerei"@de, "Plastik"@de, "Grafik"@de, "art genre"@en, "painting"@en, "plastic arts"@en, "graphics"@en ; 
  skos:hiddenLabel "Graphik"@de, "Zeichnung"@de, "Skulptur"@de, "drawing"@en, "graphic"@en ;
  skos:notation "K2500-K2999" ;
  skos:inScheme <Lesesaal> .  #eventuell kann hier altLabel durch Subject ersetzt werden.
 
 <K3000-> a skos:Concept ;
- skos:prefLabel "Kunstgeschichte Deutschland"@de ;
- skos:prefLabel "art history - Germany"@en ;
+ skos:prefLabel "Kunstgeschichte Deutschland"@de, "Art history - Germany"@en ;
  skos:notation "K3000-K3999" ;
  skos:inScheme <Lesesaal> . 
 
 <K4000-> a skos:Concept ;
- skos:prefLabel "Außereuropäische Kunstgeschichte"@de ;
- skos:prefLabel "non-European art history"@en ;
+ skos:prefLabel "Außereuropäische Kunstgeschichte"@de, "Non-European art history"@en ;
  skos:notation "K4000-K4049" ;
  skos:inScheme <Lesesaal> . 
 
 <K4050-> a skos:Concept ;
- skos:prefLabel "Übrige europäische Kunstgeschichte"@de ;
+ skos:prefLabel "Übrige europäische Kunstgeschichte"@de, "Rest of european art history"@en ;
  skos:scopeNote "enthält alles zur europäischen kunstgeschichte, außer was unter K3000-"@de ;
  skos:editorialNote "eventuell nochmal feiner gliedern, nach ländern bspw."@de ;
  skos:notation "K4050-K5999" ;
  skos:inScheme <Lesesaal> . 
 
 <K6000-> a skos:Concept ;
- skos:prefLabel "Musikwissenschaft Allgemeines"@de ;
- skos:prefLabel "musicology"@en ;
+ skos:prefLabel "Musikwissenschaft Allgemeines"@de, "Musicology"@en ;
  skos:altLabel "musical research"@en ;
  skos:hiddenLabel "Musikgeschichte"@de ;
  skos:exactMatch <https://lobid.org/gnd/4130526-7> ;
@@ -273,54 +260,47 @@ skos:prefLabel "Universitäten und Hochschulen"@de ;
  skos:inScheme <Lesesaal> . #wie heading musikwissenschaft unterbringen? Musikgeschichte nicht eigentlich als hiddenLabel, eher als verwandter begriff. da der aber nicht im vokabular ist, hab ich erstmal hiddenLabdel gewählt
 
 <K6200-> a skos:Concept ;
- skos:prefLabel "Biographische Nachschlagewerke Komponisten"@de ;
- skos:prefLabel "biographical reference works composers"@en ;
+ skos:prefLabel "Biographische Nachschlagewerke Komponisten"@de, "Biographical reference works about composers"@en ;
  skos:notation "K6200-K6299" ;
  skos:inScheme <Lesesaal> . 
 
 <K6300-> a skos:Concept ;
- skos:prefLabel "Biographische Nachschlagewerke Interpreten"@de ;
- skos:prefLabel "biographical reference works performers"@en ;
+ skos:prefLabel "Biographische Nachschlagewerke Interpreten"@de, "Biographical reference works about performers"@en ;
  skos:notation "K6300-6399" ;
  skos:inScheme <Lesesaal> . 
 
 <K6400-> a skos:Concept ;
- skos:prefLabel "Musikwissenschaft und Teildisziplinen"@de ;
- skos:prefLabel "Musicology and sub-disciplines"@en ;  
+ skos:prefLabel "Musikwissenschaft und Teildisziplinen"@de, "Musicology and sub-disciplines"@en ;  
  skos:altLabel "Systematische Musikwissenschaft"@de, "Kognitive Musikwissenschaft"@de, "Musikethnologie"@de, "Ethnomusikologie"@de, "Vergleichende Musikwissenschaft"@de, "Populäre Musik"@de ;
  skos:notation "K6400-K6499" ;
  skos:inScheme <Lesesaal> . 
 
 <K6500-> a skos:Concept ;
- skos:prefLabel "Regionale Musikwissenschaft"@de ;
- skos:prefLabel "regional musicology"@en ;
+ skos:prefLabel "Regionale Musikwissenschaft"@de, "Regional Musicology"@en ;
  skos:notation "K6500-K6699" ;
  skos:inScheme <Lesesaal> . 
 
 <K6700-> a skos:Concept ;
- skos:prefLabel "Historische Musikwissenschaft"@de ;
- skos:prefLabel "historical musicology"@en ;
+ skos:prefLabel "Historische Musikwissenschaft"@de, "Historical Musicology"@en ;
  skos:altLabel "Musikgeschichte"@de, "Musik / Historiographie"@de, "Musik / Geschichtsschreibung"@de, "Musikhistoriographie"@de, "Musikhistoriografie"@de ; 
  skos:notation "K6700-K7399" ;
  skos:inScheme <Lesesaal> . 
 
 <K7400-> a skos:Concept ;
- skos:prefLabel "Musikalische Gattungen"@de  ;
- skos:prefLabel "musical genres"@en ;
+ skos:prefLabel "Musikalische Gattungen"@de, "Musical genres"@en ;
  skos:altLabel "Oper"@de, "Operette"@de, "Sinfonie"@de ;
  skos:notation "K7400-K7899" ;
  skos:inScheme <Lesesaal> .  #zuordnung oper etc. inhaltlich eventuell nicht sinnvoll 
 
 <K7900-> a skos:Concept ;
- skos:prefLabel "Musikinstrumente"@de ;
- skos:prefLabel "musical instruments"@en ;
+ skos:prefLabel "Musikinstrumente"@de, "Musical instruments"@en ;
  skos:altLabel "Musikinstrument"@de, "Instrument"@de, "musical instrument"@en ;
  skos:notation "K7900-K8099" ;
  skos:inScheme <Lesesaal> . 
 
 <K8100-> a skos:Concept ;
- skos:prefLabel "Komponisten: Leben und Werk"@de ;
- skos:altLabel "composers: life and work"@en, "Komponisten: Biografien"@de, "composers: life and works"@en ;
+ skos:prefLabel "Komponisten: Leben und Werk"@de, "Composers: Life and works"@en ;
+ skos:altLabel "Komponisten: Biografien"@de, "Composers: Life and work"@en ;
  skos:notation "K8100-" ;
  skos:inScheme <Lesesaal> . 
           
