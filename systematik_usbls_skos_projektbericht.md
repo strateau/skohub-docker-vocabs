@@ -1,15 +1,63 @@
 Projektbericht
 
-1. Aufgabenstellung
 
-2. Herangehensweise
-3. 
-4. Probleme
+## **1. Beschreibung des gewählten Vokabulars**
+
+Wir entschieden uns für ein Vokabular, das in der USB Köln zur Klassifikation des Bestandes im Lesesaal verwendet wird.
+Es liegt bereits als yaml veröffentlicht vor (https://github.com/oflimm/openbib/blob/master/portal/perl/conf/usbls.yml).
+Dieses gibt die basale Informationen die Signatur und deren Bezeichnung wieder (z.B. K1-, Archäologie und Antike Kunst).
+Es liegt jedoch beispielsweise nicht englischsprachig vor (vgl.https://katalog.ub.uni-koeln.de/portal/browse/ls/id/K.html?l=en) - 
+die Hauptseite der USB Köln wird in der Darstellung übersetzt, die Systematik nicht. 
+In der Rückübertragung der in SKOS unter prefLabel "@en" ergänzten Bezeichnungen Signaturstellen und die Darstellung auf der Page
+der USB Köln könnte ein erster Nutzen der vorliegenden Bearbeitung bestehen.
+
+(**Aufgabe:** *"Beschreibung des gewählten Vokabulars (Anzahl der Deskriptoren, benutzten Sprachen etc.) seines Anwendungsbereichs und Begründung der Auswahl gerade dieses Vokabulars"*)
+
+- Verwendung in der USB Köln zur Klassifikation des Lesesaals
+
+## **2. Zusammenarbeit mit GitHub**
+Zur Zusammenarbeit im Projekt nutzten wir ein Kanban Board auf Github. Dabei arbeiteten wir nicht mit Fristen, sondern mit Zuständigkeiten unter der Maßgabe des
+"alsbald/demnächst zu erledigen". Das detaillierte Besprechen der Augaben erfolgte dagegen über Zoom.
+Da keine Erfahrungen in der Zusammenarbeit mittels Kanban auf Github vorhanden waren, gab es schon beim Einrichten grundlegende Lerneffekte. 
+Die Bedienung erwies sich als einfach. Weitergehende Funktionen blieben allerdings vermutlich ungenutzt. 
+Eine spezifischere Form des Projektmanagements ("agil" etc.) wurde ausdrücklich nicht verfolgt.
+Das Festlegen abgegrenzter Aufgaben gestaltete sich einfach, nach dem Schema "so und viele Stellen der Systematik in SKOS übertragen". 
+Die Arbeiten in Github selbst - das Forken von Repos etc. - liefen als nicht definierte Aufgaben im Hintergrund und wurden im Laufe des Projekts von allen Gruppenmitgliedern wahrgenommen. Gangbarer Weg war schließlich, die Gruppenmitglieder in das Projekt einzuladen, um Änderungen direkt vornehmen zu können und den Umweg über forken und pull requests auszulassen. In Anbetracht des einfachen und überschaubaren Vokabulars erwies sich dieses Vorgehen als einfache und schnelle Lösung. Für komplexere Projekte ist es jedoch sicherlich nicht zu empfehlen. Die Sicherheit in Forks zu arbeiten, wäre hier zu bevorzugen, vor allem, wenn es um die Möglichkeite funktionsrelevanter Änderungen geht. 
+Grundlegend hat die Bearbeitung der Aufgabe positiv zur Auseinandersetzung mit Github und der Arbeit im Projekteam beigetragen!
+
+
+
+## **3. Probleme beim Einrichten des Repos**
    - Fehlermeldungen aufgrund von falscher Zeichensetzungen, Syntax und Adressierungen
          - bspw. URIS in Anführungszeichen
          - bspw. oben ausgewiesene aber nicht erstellte "Klassen" (?)
          - bspw. Großbuchstaben nicht vergeben bei "prefLabel"
    - Debugging per skos validator per Github Checks
+
+## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
+
+Vor der Bearbeitung des Projektes gab es in der Gruppe keine oder nur wenig Kenntnisse über RDF/SKOS.
+Grundlegende Informationen dazu wurden in der Lehrveranstaltung vermittelt, diese konnten durch Selbststudium gefestigt und erweitert werden.
+Erst die Anwendung von RDF/Turtle/SKOS im Projekt führte allerdings zu einem ansatzweise praktischen Verständnis, "wozu das Ganze gut ist", das
+über die Definitionen hinausgeht. Der Vollständigkeit halber dennoch zuerst Definitionen, auch um das gewonnene Grundverständnis wiederzugeben:
+- RDF (Ressource Description Framwork): Datenmodell für Linked Open Data, jede Informartionseinheit besteht aus Triplen (Subjekt, Prädikat, Objekt);
+  Entity-Relationship-Model
+- RDF trifft Aussagen über Ressourcen
+- eine mögliche Serialisierung von RDF: Turtle (Terse RDF Triple Language) - menschenlesbare Darstellung von RDF-Graphen 
+- SKOS (Simple Knowledge Organisation System): Datenstandard (als Namensraum), um kontrollierte Vokabulare im Semantic Web zu veröffentlichen, diese nutz- und verknüpfbar zu   machen
+Über die Definitionen hinaus erwies sich vor allem die Lektüre zu SKOS in https://www.w3.org/TR/skos-reference/ als ergiebig, wenn es darum ging,
+das bearbeitete Vokabular sinnvoll mit SKOS-Konzepten anzureichern.
+
+## **5. Ausblick und Nutzen/Anwendungsfälle**
+
+Der unmittelbare und basale Nutzen des Projektes besteht darin, die Darstellung der Systematik des Lesesaals in Englisch zu ermöglichen.
+Zudem würde bei der Implementierung der Ergebnisse der Bearbeitung in SKOS für einzelne Systemstellen die Suche innerhalb der Systematik
+mit broad matches und alt labels funktionieren. Ein gesuchter, aber nicht vorhandener Begriff führte somit immerhin zu einem inhaltlich trotzdem relevanten Suchergebnis.
+Angesichts des anzunehmenden Rechercheverhaltens von Nutzer*innen sowie das Vorhandensein der Medien des Lesesaals der USB Köln im Sinne von "Büchertapete" dürfte
+der praktische Nutzen gleichzeitig begrenzt sein.
+Für uns als Bearbeitende ergibt sich in der sowohl mit Git als auch RDF/Turtle/SKOS gesammelten Erfahrung ein unmittelbarer Nutzen, der idealerweise im
+Weiterverfolgen von Fragen und Aufgaben in diesem Bereich besteht.
+
 
 
 Projekthistorie
