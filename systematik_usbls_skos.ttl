@@ -124,7 +124,7 @@
 skos:prefLabel "Allgemeine Wissenschaftskunde"@de ;
  skos:altLabel "General scientific studies"@en ;
  skos:notation "A1-A189" ;
- skos:scopeNote "Wissenschaftskunde ist als systematisierend-beschreibende Darstellung aller Wissenschaften, ihrer Gegenstände und Arbeitsweisen ein traditioneller Lehrgegenstand in der bibliothekarischen und buchhändlerischen Berufsausbildung." ; 
+ skos:scopeNote "Wissenschaftskunde ist als systematisierend-beschreibende Darstellung aller Wissenschaften, ihrer Gegenstände und Arbeitsweisen ein traditioneller Lehrgegenstand in der bibliothekarischen und buchhändlerischen Berufsausbildung."@de ; 
  skos:inScheme <Lesesaal> .
 
 <A190-> a skos:Concept ;
@@ -143,7 +143,7 @@ skos:prefLabel "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"@de ;
 skos:prefLabel "Landeskunde - Deutschland"@de ;
  skos:altLabel "Ortsgeschichte - Deutschland"@de, "Regional Studies - Germany"@en ;
  skos:notation "A4000-A4699" ;
- skos:scopeNote "Beinhaltet diverse Themen wie Geografie, Biologie, Geologie, Sozialwissenschaft und Geschichte von einem Ort." ;
+ skos:scopeNote "Beinhaltet diverse Themen wie Geografie, Biologie, Geologie, Sozialwissenschaft und Geschichte von einem Ort."@de ;
  skos:inScheme <Lesesaal> .
 
 <A4700-> a skos:Concept ;
