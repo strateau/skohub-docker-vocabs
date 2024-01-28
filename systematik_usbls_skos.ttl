@@ -19,7 +19,7 @@
 <A> a skos:Concept ;
  skos:prefLabel "Allgemeines"@de, "General"@en ;
  skos:notation "A" ;
- # skos:narrower <A1->, <A190->, <A400->, <A4000->, <A4700->, <A6000->, <A6100->, <A6600->, <A9200->, <A9400->, <A9461-> ;
+ skos:narrower <A1->, <A190->, <A400->, <A4000->, <A4700->, <A6000->, <A6100->, <A6600->, <A9200->, <A9400->, <A9461-> ;
  skos:topConceptOf <Lesesaal> .
 
 <B> a skos:Concept ;
@@ -124,6 +124,7 @@
 skos:prefLabel "Allgemeine Wissenschaftskunde"@de ;
  skos:altLabel "General scientific studies"@en ;
  skos:notation "A1-A189" ;
+ skos:scopeNote "Wissenschaftskunde ist als systematisierend-beschreibende Darstellung aller Wissenschaften, ihrer Gegenstände und Arbeitsweisen ein traditioneller Lehrgegenstand in der bibliothekarischen und buchhändlerischen Berufsausbildung." ; 
  skos:inScheme <Lesesaal> .
 
 <A190-> a skos:Concept ;
@@ -142,6 +143,7 @@ skos:prefLabel "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"@de ;
 skos:prefLabel "Landeskunde - Deutschland"@de ;
  skos:altLabel "Ortsgeschichte - Deutschland"@de, "Regional Studies - Germany"@en ;
  skos:notation "A4000-A4699" ;
+ skos:scopeNote "Beinhaltet diverse Themen wie Geografie, Biologie, Geologie, Sozialwissenschaft und Geschichte von einem Ort."
  skos:inScheme <Lesesaal> .
 
 <A4700-> a skos:Concept ;
