@@ -15,6 +15,13 @@
   "notation": [
     "A9400-A9460"
   ],
+  "broader": {
+    "id": "https://purl.org/systematik_usbls_skos/A",
+    "prefLabel": {
+      "de": "Allgemeines",
+      "en": "General"
+    }
+  },
   "inScheme": [
     {
       "id": "https://purl.org/systematik_usbls_skos/Lesesaal",

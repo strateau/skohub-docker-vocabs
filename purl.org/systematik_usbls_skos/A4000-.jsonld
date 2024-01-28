@@ -12,9 +12,19 @@
       "Regional Studies - Germany"
     ]
   },
+  "scopeNote": {
+    "de": "Beinhaltet diverse Themen wie Geografie, Biologie, Geologie, Sozialwissenschaft und Geschichte von einem Ort."
+  },
   "notation": [
     "A4000-A4699"
   ],
+  "broader": {
+    "id": "https://purl.org/systematik_usbls_skos/A",
+    "prefLabel": {
+      "de": "Allgemeines",
+      "en": "General"
+    }
+  },
   "inScheme": [
     {
       "id": "https://purl.org/systematik_usbls_skos/Lesesaal",

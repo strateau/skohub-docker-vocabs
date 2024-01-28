@@ -8,6 +8,74 @@
   "notation": [
     "A"
   ],
+  "narrower": [
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A1-",
+      "prefLabel": {
+        "de": "Allgemeine Wissenschaftskunde"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A190-",
+      "prefLabel": {
+        "de": "Allgemeine Lexika, Enzyklopädien"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A400-",
+      "prefLabel": {
+        "de": "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A4000-",
+      "prefLabel": {
+        "de": "Landeskunde - Deutschland"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A4700-",
+      "prefLabel": {
+        "de": "Allgemeine Lexika und Handbücher über einzelne Länder"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A6000-",
+      "prefLabel": {
+        "de": "Biographische Nachschlagewerke - International"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A6100-",
+      "prefLabel": {
+        "de": "Biographische Nachschlagewerke - Deutschland"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A6600-",
+      "prefLabel": {
+        "de": "Biographische Nachschlagewerke - Einzelne Länder"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A9200-",
+      "prefLabel": {
+        "de": "Studienführer - Allgemein"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A9400-",
+      "prefLabel": {
+        "de": "Medien- und Kommunikationswissenschaft, Publizistik"
+      }
+    },
+    {
+      "id": "https://purl.org/systematik_usbls_skos/A9461-",
+      "prefLabel": {
+        "de": "Universitäten und Hochschulen"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://purl.org/systematik_usbls_skos/Lesesaal",

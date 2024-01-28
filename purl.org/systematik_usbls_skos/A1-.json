@@ -9,9 +9,19 @@
       "General scientific studies"
     ]
   },
+  "scopeNote": {
+    "de": "Wissenschaftskunde ist als systematisierend-beschreibende Darstellung aller Wissenschaften, ihrer Gegenstände und Arbeitsweisen ein traditioneller Lehrgegenstand in der bibliothekarischen und buchhändlerischen Berufsausbildung."
+  },
   "notation": [
     "A1-A189"
   ],
+  "broader": {
+    "id": "https://purl.org/systematik_usbls_skos/A",
+    "prefLabel": {
+      "de": "Allgemeines",
+      "en": "General"
+    }
+  },
   "inScheme": [
     {
       "id": "https://purl.org/systematik_usbls_skos/Lesesaal",

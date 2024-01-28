@@ -12,6 +12,13 @@
   "notation": [
     "A4700-A5999"
   ],
+  "broader": {
+    "id": "https://purl.org/systematik_usbls_skos/A",
+    "prefLabel": {
+      "de": "Allgemeines",
+      "en": "General"
+    }
+  },
   "inScheme": [
     {
       "id": "https://purl.org/systematik_usbls_skos/Lesesaal",
