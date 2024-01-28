@@ -2,7 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K2000-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kunsttheorie"
+    "de": "Kunsttheorie",
+    "en": "Art theory"
   },
   "altLabel": {
     "de": [
@@ -11,8 +12,7 @@
     ],
     "en": [
       "aesthetics",
-      "philosophy of art",
-      "art theory"
+      "philosophy of art"
     ]
   },
   "notation": [

@@ -2,14 +2,12 @@
   "id": "https://purl.org/systematik_usbls_skos/A4000-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Landeskunde - Deutschland"
+    "de": "Landeskunde - Deutschland",
+    "en": "Regional Studies - Germany"
   },
   "altLabel": {
     "de": [
       "Ortsgeschichte - Deutschland"
-    ],
-    "en": [
-      "Regional Studies - Germany"
     ]
   },
   "scopeNote": {

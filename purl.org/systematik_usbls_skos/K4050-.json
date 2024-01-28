@@ -2,7 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K4050-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Übrige europäische Kunstgeschichte"
+    "de": "Übrige europäische Kunstgeschichte",
+    "en": "Rest of european art history"
   },
   "scopeNote": {
     "de": "enthält alles zur europäischen kunstgeschichte, außer was unter K3000-"

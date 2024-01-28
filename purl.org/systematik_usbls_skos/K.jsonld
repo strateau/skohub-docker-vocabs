@@ -17,91 +17,99 @@
     {
       "id": "https://purl.org/systematik_usbls_skos/K1-",
       "prefLabel": {
-        "de": "Archäologie und Antike Kunst"
+        "de": "Archäologie und Antike Kunst",
+        "en": "Archaeology and ancient art"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K1000-",
       "prefLabel": {
-        "de": "Nachschlagewerke und Enzyklopädien"
+        "de": "Nachschlagewerke und Enzyklopädien",
+        "en": "Reference works and encyclopedias"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K1500-",
       "prefLabel": {
-        "de": "Bestands- und Werkkataloge"
+        "de": "Bestands- und Werkkataloge",
+        "en": "Catalogues"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K1700-",
       "prefLabel": {
-        "de": "Quellenschriften"
+        "de": "Quellenschriften",
+        "en": "Source documents"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K2000-",
       "prefLabel": {
-        "de": "Kunsttheorie"
+        "de": "Kunsttheorie",
+        "en": "Art theory"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K2050-",
       "prefLabel": {
-        "de": "Kunstwissenschaft (Fach)"
+        "de": "Kunstwissenschaft (Fach)",
+        "en": "Art Studies"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K2100-",
       "prefLabel": {
         "de": "Allgemeine Kunstgeschichte - Einführungen und Handbücher",
-        "en": "art history - introductions and manuals"
+        "en": "Art history - Introductions and manuals"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K2500-",
       "prefLabel": {
-        "de": "Einzelne Kunstgattungen"
+        "de": "Einzelne Kunstgattungen",
+        "en": "Individual forms of art"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K3000-",
       "prefLabel": {
         "de": "Kunstgeschichte Deutschland",
-        "en": "art history - Germany"
+        "en": "Art history - Germany"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K4000-",
       "prefLabel": {
         "de": "Außereuropäische Kunstgeschichte",
-        "en": "non-European art history"
+        "en": "Non-European art history"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K4050-",
       "prefLabel": {
-        "de": "Übrige europäische Kunstgeschichte"
+        "de": "Übrige europäische Kunstgeschichte",
+        "en": "Rest of european art history"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6000-",
       "prefLabel": {
         "de": "Musikwissenschaft Allgemeines",
-        "en": "musicology"
+        "en": "Musicology"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6200-",
       "prefLabel": {
         "de": "Biographische Nachschlagewerke Komponisten",
-        "en": "biographical reference works composers"
+        "en": "Biographical reference works about composers"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6300-",
       "prefLabel": {
         "de": "Biographische Nachschlagewerke Interpreten",
-        "en": "biographical reference works performers"
+        "en": "Biographical reference works about performers"
       }
     },
     {
@@ -115,34 +123,35 @@
       "id": "https://purl.org/systematik_usbls_skos/K6500-",
       "prefLabel": {
         "de": "Regionale Musikwissenschaft",
-        "en": "regional musicology"
+        "en": "Regional Musicology"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K6700-",
       "prefLabel": {
         "de": "Historische Musikwissenschaft",
-        "en": "historical musicology"
+        "en": "Historical Musicology"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K7400-",
       "prefLabel": {
         "de": "Musikalische Gattungen",
-        "en": "musical genres"
+        "en": "Musical genres"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K7900-",
       "prefLabel": {
         "de": "Musikinstrumente",
-        "en": "musical instruments"
+        "en": "Musical instruments"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/K8100-",
       "prefLabel": {
-        "de": "Komponisten: Leben und Werk"
+        "de": "Komponisten: Leben und Werk",
+        "en": "Composers: Life and works"
       }
     }
   ],

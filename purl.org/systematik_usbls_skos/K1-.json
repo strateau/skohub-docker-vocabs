@@ -2,13 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K1-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Archäologie und Antike Kunst"
-  },
-  "altLabel": {
-    "en": [
-      "Archaeology",
-      "Ancient art"
-    ]
+    "de": "Archäologie und Antike Kunst",
+    "en": "Archaeology and ancient art"
   },
   "notation": [
     "K1-K999"

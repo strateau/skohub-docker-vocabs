@@ -12,67 +12,78 @@
     {
       "id": "https://purl.org/systematik_usbls_skos/A1-",
       "prefLabel": {
-        "de": "Allgemeine Wissenschaftskunde"
+        "de": "Allgemeine Wissenschaftskunde",
+        "en": "General scientific studies"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A190-",
       "prefLabel": {
-        "de": "Allgemeine Lexika, Enzyklopädien"
+        "de": "Allgemeine Lexika, Enzyklopädien",
+        "en": "General lexica, Encyclopedias"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A400-",
       "prefLabel": {
-        "de": "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"
+        "de": "Allgemeine Lexika, Enzyklopädien - Einzelne Länder",
+        "en": "General lexica, Encyclopedias - Individual countries"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A4000-",
       "prefLabel": {
-        "de": "Landeskunde - Deutschland"
+        "de": "Landeskunde - Deutschland",
+        "en": "Regional Studies - Germany"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A4700-",
       "prefLabel": {
-        "de": "Allgemeine Lexika und Handbücher über einzelne Länder"
+        "de": "Allgemeine Lexika und Handbücher über einzelne Länder",
+        "en": "General lexica and handbooks about individual countries"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A6000-",
       "prefLabel": {
-        "de": "Biographische Nachschlagewerke - International"
+        "de": "Biographische Nachschlagewerke - International",
+        "en": "Biographical reference works - International"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A6100-",
       "prefLabel": {
-        "de": "Biographische Nachschlagewerke - Deutschland"
+        "de": "Biographische Nachschlagewerke - Deutschland",
+        "en": "Biographical reference works -  Germany"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A6600-",
       "prefLabel": {
-        "de": "Biographische Nachschlagewerke - Einzelne Länder"
+        "de": "Biographische Nachschlagewerke - Einzelne Länder",
+        "en": "Biographical reference works - Individual countries"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A9200-",
       "prefLabel": {
-        "de": "Studienführer - Allgemein"
+        "de": "Studienführer - Allgemein",
+        "en": "Study guides - General"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A9400-",
       "prefLabel": {
-        "de": "Medien- und Kommunikationswissenschaft, Publizistik"
+        "de": "Medien- und Kommunikationswissenschaft, Publizistik",
+        "en": "Media and Communication Studies"
       }
     },
     {
       "id": "https://purl.org/systematik_usbls_skos/A9461-",
       "prefLabel": {
-        "de": "Universitäten und Hochschulen"
+        "de": "Universitäten und Hochschulen",
+        "en": "Universities and other institutions of tertiary education"
       }
     }
   ],

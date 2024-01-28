@@ -2,15 +2,15 @@
   "id": "https://purl.org/systematik_usbls_skos/K8100-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Komponisten: Leben und Werk"
+    "de": "Komponisten: Leben und Werk",
+    "en": "Composers: Life and works"
   },
   "altLabel": {
     "de": [
       "Komponisten: Biografien"
     ],
     "en": [
-      "composers: life and work",
-      "composers: life and works"
+      "Composers: Life and work"
     ]
   },
   "notation": [

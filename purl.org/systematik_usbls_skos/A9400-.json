@@ -2,14 +2,12 @@
   "id": "https://purl.org/systematik_usbls_skos/A9400-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Medien- und Kommunikationswissenschaft, Publizistik"
+    "de": "Medien- und Kommunikationswissenschaft, Publizistik",
+    "en": "Media and Communication Studies"
   },
   "altLabel": {
     "de": [
       "Medienwissenschaft"
-    ],
-    "en": [
-      "Media and Communication Studies"
     ]
   },
   "notation": [

@@ -2,12 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/A9461-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Universitäten und Hochschulen"
-  },
-  "altLabel": {
-    "en": [
-      "Universities and other institutions of tertiary education"
-    ]
+    "de": "Universitäten und Hochschulen",
+    "en": "Universities and other institutions of tertiary education"
   },
   "notation": [
     "A9461-"

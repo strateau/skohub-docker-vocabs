@@ -2,7 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K1000-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Nachschlagewerke und Enzyklopädien"
+    "de": "Nachschlagewerke und Enzyklopädien",
+    "en": "Reference works and encyclopedias"
   },
   "altLabel": {
     "de": [

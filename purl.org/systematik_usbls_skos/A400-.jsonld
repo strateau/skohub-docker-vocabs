@@ -2,12 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/A400-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"
-  },
-  "altLabel": {
-    "en": [
-      "General lexica, Encyclopedias - Individual countries"
-    ]
+    "de": "Allgemeine Lexika, Enzyklopädien - Einzelne Länder",
+    "en": "General lexica, Encyclopedias - Individual countries"
   },
   "notation": [
     "A400-A3999"

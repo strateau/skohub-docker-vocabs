@@ -2,7 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K2050-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kunstwissenschaft (Fach)"
+    "de": "Kunstwissenschaft (Fach)",
+    "en": "Art Studies"
   },
   "hiddenLabel": {
     "de": [

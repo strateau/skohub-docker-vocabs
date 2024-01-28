@@ -2,12 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/A4700-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Allgemeine Lexika und Handbücher über einzelne Länder"
-  },
-  "altLabel": {
-    "en": [
-      "General lexica and handbooks about individual countries"
-    ]
+    "de": "Allgemeine Lexika und Handbücher über einzelne Länder",
+    "en": "General lexica and handbooks about individual countries"
   },
   "notation": [
     "A4700-A5999"

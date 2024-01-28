@@ -2,7 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K1500-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Bestands- und Werkkataloge"
+    "de": "Bestands- und Werkkataloge",
+    "en": "Catalogues"
   },
   "altLabel": {
     "de": [

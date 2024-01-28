@@ -2,12 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/A6600-",
   "type": "Concept",
   "prefLabel": {
-    "de": "Biographische Nachschlagewerke - Einzelne Länder"
-  },
-  "altLabel": {
-    "en": [
-      "Biographical reference works - Individual countries"
-    ]
+    "de": "Biographische Nachschlagewerke - Einzelne Länder",
+    "en": "Biographical reference works - Individual countries"
   },
   "notation": [
     "A6600-A9199"
