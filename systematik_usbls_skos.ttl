@@ -120,6 +120,71 @@
  skos:topConceptOf <Lesesaal> .
 
 #A-Unterebenen
+<A1->, a skos:Concept ;
+skos:prefLabel "Allgemeine Wissenschaftskunde"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A1-A189" ;
+ skos:inScheme <Lesesaal> .
+
+<A190->, a skos:Concept ;
+skos:prefLabel "Allgemeine Lexika, Enzyklopädien"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A190-A399" ;
+ skos:inScheme <Lesesaal> .
+
+<A400->, a skos:Concept ;
+skos:prefLabel "Allgemeine Lexika, Enzyklopädien - Einzelne Länder"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A400-A3999" ;
+ skos:inScheme <Lesesaal> .
+
+<A4000->, a skos:Concept ;
+skos:prefLabel "Landeskunde - Deutschland"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A4000-A4699" ;
+ skos:inScheme <Lesesaal> .
+
+<A4700->, a skos:Concept ;
+skos:prefLabel "Allgemeine Lexika und Handbücher über einzelne Länder"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A4700-A5999" ;
+ skos:inScheme <Lesesaal> .
+
+<A6000->, a skos:Concept ;
+skos:prefLabel "Biographische Nachschlagewerke - International"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A6000-A6099" ;
+ skos:inScheme <Lesesaal> .
+
+<A6100->, a skos:Concept ;
+skos:prefLabel "Biographische Nachschlagewerke - Deutschland"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A6100-A6599" ;
+ skos:inScheme <Lesesaal> .
+
+<A6600->, a skos:Concept ;
+skos:prefLabel "Biographische Nachschlagewerke - Einzelne Länder"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A6600-A9199" ;
+ skos:inScheme <Lesesaal> .
+
+<A9200->, a skos:Concept ;
+skos:prefLabel "Studienführer - Allgemein"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A9200-A9399" ;
+ skos:inScheme <Lesesaal> .
+
+<A9400->, a skos:Concept ;
+skos:prefLabel "Medien- und Kommunikationswissenschaft, Publizistik"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A9400-A9460" ;
+ skos:inScheme <Lesesaal> .
+
+<A9461-> a skos:Concept ;
+skos:prefLabel "Universitäten und Hochschulen"@de ;
+ skos:altLabel ""@de, ""@en ;
+ skos:notation "A9461-" ;
+ skos:inScheme <Lesesaal> .
 
 <K1-> a skos:Concept ;
  skos:prefLabel "Archäologie und Antike Kunst"@de ;
