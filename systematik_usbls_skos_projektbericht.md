@@ -32,7 +32,7 @@ Grundlegend hat die Bearbeitung der Aufgabe positiv zur Auseinandersetzung mit G
 
 Nach einem ersten Transfer der Aufstellungssystematik des Lesesaals der USB Köln in unseren skohub-docker-vocabs-Fork gab es Probleme beim Aufbau der SkoHub Vocabs Static Website. Nach weiterer Auseinandersetzung mit Github konnten wir die Fehlermeldungen, die bei der Validierung durch den skohub-vocabs-docker entstanden waren, finden. Eine große Hilfe innerhalb der Fehlermeldungen war die Sektion "Node, where the error occured". Es handelte sich bei unseren Fehlern hauptsächlich um falsche Zeichensetzung, falsche Syntax oder fehlende Adressierungen wie bspw.:
 
- - URIS in Anführungszeichen
+ - URIS wurden in Anführungszeichen codiert
  - in "skos:hasTopConcept" ausgewiesene aber nicht erstellte Deskriptoren
  - in "prefLabel" nicht vergessene Großbuchstaben 
 
@@ -43,26 +43,32 @@ Diese Fehler produzierten einen kritischen "Violation Error" der das Vokabular a
 
 Vor der Bearbeitung des Projektes gab es in der Gruppe keine oder nur wenige Kenntnisse über RDF/SKOS.
 Grundlegende Informationen dazu wurden in der Lehrveranstaltung vermittelt, diese konnten durch Selbststudium gefestigt und erweitert werden.
-Erst die Anwendung von RDF/Turtle/SKOS im Projekt führte allerdings zu einem ansatzweise praktischen Verständnis, "wozu das Ganze gut ist", das
-über die Definitionen hinausgeht. Der Vollständigkeit halber dennoch zuerst Definitionen, auch um das gewonnene Grundverständnis wiederzugeben:
-- RDF (Ressource Description Framwork): Datenmodell für Linked Open Data, jede Informartionseinheit besteht aus Triplen (Subjekt, Prädikat, Objekt);
-  Entity-Relationship-Model
+
+Erst die Anwendung von RDF/Turtle/SKOS im Projekt allerdings führte zu einem ersten praktischen Verständnis, welches über das Grundverständnis hinausgeht. Zur Vollständigkeit dennoch zunächst Definitionen, auch um das gewonnene Grundverständnis wiederzugeben:
+
+- RDF (Ressource Description Framwork): Datenmodell für Linked Open Data, jede Informartionseinheit besteht aus Triplen (Subjekt, Prädikat, Objekt)
+- Entity-Relationship-Model
 - RDF trifft Aussagen über Ressourcen
-- eine mögliche Serialisierung von RDF: Turtle (Terse RDF Triple Language) - menschenlesbare Darstellung von RDF-Graphen 
-- SKOS (Simple Knowledge Organisation System): Datenstandard (als Namensraum), um kontrollierte Vokabulare im Semantic Web zu veröffentlichen, diese nutz- und verknüpfbar zu   machen
-Über die Definitionen hinaus erwies sich vor allem die Lektüre zu SKOS in https://www.w3.org/TR/skos-reference/ als ergiebig, wenn es darum ging,
-das bearbeitete Vokabular sinnvoll mit SKOS-Konzepten anzureichern.
+- eine mögliche Serialisierung von RDF: Turtle (Terse RDF Triple Language), eine menschenlesbare Darstellung von RDF-Graphen 
+- SKOS (Simple Knowledge Organisation System): Ein Datenstandard (als Namensraum), um kontrollierte Vokabulare im Semantic Web zu veröffentlichen und diese nutz- und verknüpfbar zu machen
+
+Über die Definitionen hinaus erwies sich vor allem die Lektüre zu SKOS in https://www.w3.org/TR/skos-reference/ als ergiebig, wenn es darum ging, das zu bearbeitetende Vokabular sinnvoll mit SKOS-Konzepten anzureichern.
 
 
-## **5. Ausblick und Nutzen/Anwendungsfälle**
+## **5. Ausblick auf Nutzen und Anwendungsfälle**
 
-Der unmittelbare und basale Nutzen des Projektes besteht darin, die Darstellung der Systematik des Lesesaals in Englisch zu ermöglichen.
-Zudem würde bei der Implementierung der Ergebnisse der Bearbeitung in SKOS für einzelne Systemstellen die Suche innerhalb der Systematik
-mit broad matches und alt labels funktionieren. Ein gesuchter, aber nicht vorhandener Begriff führte somit immerhin zu einem inhaltlich trotzdem relevanten Suchergebnis.
-Angesichts des anzunehmenden Rechercheverhaltens von Nutzer*innen sowie das Vorhandensein der Medien des Lesesaals der USB Köln im Sinne von "Büchertapete" dürfte
-der praktische Nutzen gleichzeitig begrenzt sein.
-Für uns als Bearbeitende ergibt sich in der sowohl mit Git als auch RDF/Turtle/SKOS gesammelten Erfahrung ein unmittelbarer Nutzen, der idealerweise im
-Weiterverfolgen von Fragen und Aufgaben in diesem Bereich besteht.
+Der unmittelbare und basale Nutzen des Projektes besteht darin, einen Teil der Aufstellungssystematik des Lesesaals in ein kontrolliertes und strukturiertes Vokabular übergeführt zu haben. Das neue SkoHub-Vokabular nutzt nun die Vorteile des Semantic Web und Linked Open Data. Zusätzlich wurde das Vokabular um englische Übersetzungen ergänzt.
+
+Ein weiterer Vorteil ist die Ergänzung der Systematik um die SKOS-Konzepte "skos:altLabel" und bei der übergeordneten Hierarchiestufe "skos:exactMatch" 
+
+Zudem wurde bei der Implementierung der Ergebnisse der Bearbeitung in SKOS für einzelne Systemstellen die Suche innerhalb der Systematik mit broad matches und alt labels funktionieren. Ein gesuchter, aber nicht vorhandener Begriff führte somit immerhin zu einem inhaltlich trotzdem relevanten Suchergebnis.
+
+
+die Darstellung der Systematik des Lesesaals in Englisch zu ermöglichen. Zudem würde bei der Implementierung der Ergebnisse der Bearbeitung in SKOS für einzelne Systemstellen die Suche innerhalb der Systematik mit broad matches und alt labels funktionieren. Ein gesuchter, aber nicht vorhandener Begriff führte somit immerhin zu einem inhaltlich trotzdem relevanten Suchergebnis.
+
+Angesichts des anzunehmenden Rechercheverhaltens von Nutzer*innen sowie das Vorhandensein der Medien des Lesesaals der USB Köln im Sinne von "Büchertapete" dürfte der praktische Nutzen gleichzeitig begrenzt sein.
+
+Für uns als Bearbeitende ergibt sich in der sowohl mit Git als auch RDF/Turtle/SKOS gesammelten Erfahrung ein unmittelbarer Nutzen, der idealerweise im Weiterverfolgen von Fragen und Aufgaben in diesem Bereich besteht.
 
 
 
