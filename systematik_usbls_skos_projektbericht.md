@@ -24,7 +24,7 @@ Das Vokabular des Lesesaals besteht aus etwa 800 Deskriptoren, befindet sich in 
 <span style="color:red">Die Bearbeitung der Aufgabe erfolgte händisch, da uns die Auseinandersetzung mit SkoHub Vocabs so direkter und einprägsamer erschien.</span> Insgesamt wurden 46 Deskriptoren übertragen und um englische Übersetzungen ergänzt.
 
 
-## **2. Zusammenarbeit mit GitHub**
+## **2. Gemeinsame Zusammenarbeit auf GitHub**
 
 Zur Zusammenarbeit im Projekt nutzten wir ein Kanban Board auf Github. Dabei arbeiteten wir nicht mit Fristen, sondern mit Zuständigkeiten unter der Maßgabe des "alsbald/demnächst zu erledigen". Das detaillierte Besprechen der Augaben erfolgte dagegen über Zoom.
 
@@ -60,6 +60,8 @@ Erst die Anwendung von RDF/Turtle/SKOS im Projekt allerdings führte zu einem er
 - SKOS (Simple Knowledge Organisation System): Ein Datenstandard (als Namensraum), um kontrollierte Vokabulare im Semantic Web zu veröffentlichen und diese nutz- und verknüpfbar zu machen
 
 Über die Definitionen hinaus erwies sich vor allem die Lektüre zu SKOS in https://www.w3.org/TR/skos-reference/ als ergiebig, wenn es darum ging, das zu bearbeitetende Vokabular sinnvoll mit SKOS-Konzepten anzureichern.
+
+Folgende SKOS-Properties wurden bei der Bearbeitung verwendet: `skos:prefLabel`, `skos:definition`, `skos:hasTopConcept`, `skos:notation`, `skos:narrower`, `skos:topConceptOf`, `skos:broadMatch`, `skos:exactMatch`, `skos:altLabel`. Da wir beispielhaft das Vokabular mit Erläuterungen befüllen wollten, haben wir uns dazu entschieden, Wikidatalinks per `skos:exactMatch` und `skos:broadMatch` in die Konzepte einzufügen, sofern die Fachgebiete in Wikidata reflektiert werden und die Hinzufügung sinnvoll erschien. Das Konzept `skos:altLabel` wurde genutzt um Synonyme einzubinden und die Suchfunktion zu erleichtern. 
 
 
 ## **5. Ausblick auf Nutzen und Anwendungsfälle**
