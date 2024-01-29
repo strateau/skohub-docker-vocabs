@@ -37,7 +37,8 @@
     {
       "id": "https://purl.org/systematik_usbls_skos/Lesesaal",
       "title": {
-        "de": "Systematik des Lesesaals der USB Köln"
+        "de": "Systematik des Lesesaals der USB Köln",
+        "en": "USB Köln Reading Room Classification Scheme"
       }
     }
   ],
