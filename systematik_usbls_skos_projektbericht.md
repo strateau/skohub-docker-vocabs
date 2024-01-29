@@ -1,6 +1,6 @@
 # Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
 
-MALIS 23.2 IT 2
+MALIS 23.2 IT 2: Kleines Projekt
 
 Prüfer: Adrian Pohl
 
