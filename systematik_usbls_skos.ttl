@@ -6,12 +6,12 @@
 
 
 <Lesesaal> a skos:ConceptScheme ;
- skos:prefLabel "Systematik des Lesesaals der USB Köln"@de ;                            
- dct:title "Systematik des Lesesaals der USB Köln"@de ; 
- dct:description "Kennzeichnung der Gruppen ohne Medien in der Systematik des Lesesaals"@de ; 
+ skos:prefLabel "Systematik des Lesesaals der USB Köln"@de, "USB Köln Reading Room Classification Scheme"@en ;                            
+ dct:title "Systematik des Lesesaals der USB Köln"@de, "USB Köln Reading Room Classification Scheme"@en ; 
+ dct:description "Kennzeichnung der Gruppen der Systematik des Lesesaals, ohne Verweis zu den Medien"@de, "Labelling of the groups of the reading room classification, without reference to the objects"@en ; 
  dct:creator "https://d-nb.info/gnd/40600-4" ; #Identifier
  dct:issued "2022-11-08" ;
- skos:definition "Begrenzte SKOS-Version der Systematik auf https://github.com/oflimm/openbib/blob/master/portal/perl/conf/usbls.yml" ;
+ skos:definition "Begrenzte SKOS-Version der Systematik auf https://github.com/oflimm/openbib/blob/master/portal/perl/conf/usbls.yml"@de , "Limited SKOS version of the classification scheme at https://github.com/oflimm/openbib/blob/master/portal/perl/conf/usbls.yml"@en ;
  skos:hasTopConcept <A>, <B>, <G>, <GG>, <K>, <L>, <MW>, <N>, <PH>, <PP>, <PS>, <R>, <Rh>, <T>, <V>, <W> .
 
 #ist hier die anforderung nach min 2 weiteren informativen aussagen erfüllt? zählt bspw. prefLabel/hasTopConcept dazu? creator, definition, issued... das sind schon 2.
