@@ -24,7 +24,6 @@
 
 <B> a skos:Concept ;
  skos:prefLabel "Buch-, Bibliotheks- und Informationswesen"@de, "Library and Information Science"@en ;
- # skos:altLabel "Library and Information Science"@en ;
  skos:notation "B" ;
  skos:topConceptOf <Lesesaal> .
 
@@ -73,28 +72,27 @@
  
 <PP> a skos:Concept ;
  skos:prefLabel "Pädagogik"@de, "Pedagogy"@en ;
- # skos:altLabel "Erziehungswissenschaft"@de ;
+ skos:altLabel "Erziehungswissenschaft"@de ;
  skos:exactMatch <https://www.wikidata.org/wiki/Q7922> ;
  skos:notation "PP" ;
  skos:topConceptOf <Lesesaal> .
  
 <PS> a skos:Concept ;
  skos:prefLabel "Psychologie"@de, "Psychology"@en ;
- # skos:altLabel "Seelenkunde"@de ;
+ skos:altLabel "Seelenkunde"@de ;
  skos:exactMatch <https://www.wikidata.org/wiki/Q9418> ;
  skos:notation "PS" ;
  skos:topConceptOf <Lesesaal> .
  
 <R> a skos:Concept ;
  skos:prefLabel "Rechtswissenschaft"@de, "Jurisprudence"@en ;
- # skos:altLabel "Jura"@de ;
+ skos:altLabel "Jura"@de ;
  skos:exactMatch <https://www.wikidata.org/wiki/Q4932206> ;
  skos:notation "R" ;
  skos:topConceptOf <Lesesaal> .
  
 <Rh> a skos:Concept ;
  skos:prefLabel "Rheinische Landeskunde"@de, "Rhenish Regional Studies"@en ;
- # skos:altLabel "Seelenkunde"@de ;
  skos:closeMatch <https://www.wikidata.org/wiki/Q1595873> ;
  skos:notation "Rh" ;
  skos:topConceptOf <Lesesaal> .
