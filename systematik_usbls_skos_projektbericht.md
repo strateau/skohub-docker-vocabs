@@ -66,7 +66,7 @@ Folgende SKOS-Properties wurden bei der Bearbeitung verwendet: `skos:prefLabel`,
 
 ## **5. Ausblick auf Nutzen und Anwendungsfälle**
 
-Der unmittelbare und basale Nutzen des Projektes besteht darin, einen Teil der Aufstellungssystematik des Lesesaals in ein kontrolliertes und strukturiertes Vokabular übergeführt zu haben. Das neue SkoHub-Vokabular nutzt nun die Vorteile des Semantic Web und Linked Open Data. Zusätzlich wurde das Vokabular um englische Übersetzungen ergänzt.
+Der unmittelbare und basale Nutzen des Projektes besteht darin, einen Teil der Aufstellungssystematik des Lesesaals in ein kontrolliertes und strukturiertes Vokabular überführt zu haben. Das neue SkoHub-Vokabular nutzt nun die Vorteile des Semantic Web und Linked Open Data. Zusätzlich wurde das Vokabular um englische Übersetzungen ergänzt.
 
 Ein weiterer Vorteil ist die Ergänzung der Systematik um die SKOS-Konzepte "skos:altLabel" für eine vereinfachte Suche durch die Eingabe von Synonymen und bei der übergeordneten Hierarchiestufe "skos:exactMatch" bzw. "skos:broadMatch" um die Fachgebiete mit Wikidata zu verknüpfen.
 
