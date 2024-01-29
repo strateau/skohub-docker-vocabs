@@ -25,6 +25,7 @@
 <B> a skos:Concept ;
  skos:prefLabel "Buch-, Bibliotheks- und Informationswesen"@de, "Library and Information Science"@en ;
  skos:notation "B" ;
+ skos:broadMatch <https://www.wikidata.org/wiki/Q13420675> ;
  skos:topConceptOf <Lesesaal> .
 
 <G> a skos:Concept ;
