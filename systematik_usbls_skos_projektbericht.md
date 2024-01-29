@@ -3,17 +3,19 @@ Projektbericht
 
 ## **1. Beschreibung des gewählten Vokabulars**
 
-Wir entschieden uns für ein Vokabular, das in der USB Köln zur Klassifikation des Bestandes im Lesesaal verwendet wird.
-Es liegt bereits als yaml veröffentlicht vor (https://github.com/oflimm/openbib/blob/master/portal/perl/conf/usbls.yml).
-Dieses gibt die basale Informationen die Signatur und deren Bezeichnung wieder (z.B. K1-, Archäologie und Antike Kunst).
-Es liegt jedoch beispielsweise nicht englischsprachig vor (vgl.https://katalog.ub.uni-koeln.de/portal/browse/ls/id/K.html?l=en) - 
-die Hauptseite der USB Köln wird in der Darstellung übersetzt, die Systematik nicht. 
-In der Rückübertragung der in SKOS unter prefLabel "@en" ergänzten Bezeichnungen Signaturstellen und die Darstellung auf der Page
-der USB Köln könnte ein erster Nutzen der vorliegenden Bearbeitung bestehen.
+Für die Bearbeitung des kleinen Projekts entschieden wir uns für ein Vokabular, das in der USB Köln zur Klassifikation des Bestandes im Lesesaal verwendet wird.
 
-(**Aufgabe:** *"Beschreibung des gewählten Vokabulars (Anzahl der Deskriptoren, benutzten Sprachen etc.) seines Anwendungsbereichs und Begründung der Auswahl gerade dieses Vokabulars"*)
+Da die USB Köln ihre thematisch-hierarchische Aufstellungssystematik ihres Lesesaals im Rahmen des Projekts OpenBib (https://www.openbib.org/) veröffentlicht hat, liegt es bereits als yaml veröffentlicht vor (https://github.com/oflimm/openbib/blob/master/portal/perl/conf/usbls.yml).
+Dieses yaml gibt die basale Informationen die Signatur und deren Bezeichnung wieder (z.B. K1-, Archäologie und Antike Kunst).
+Im Gegensatz zur Homepage der USB Köln liegt die Systematik jedoch beispielsweise nicht englischsprachig vor (vgl.https://katalog.ub.uni-koeln.de/portal/browse/ls/id/K.html?l=en).
+Ein möglicher erster Nutzen einer Publikation und Rückübertragung des Vokabulars mit SkoHub Vocabs könnte die deutsch-englische Zweisprachigkeit der Signaturbereiche sein. 
 
-- Verwendung in der USB Köln zur Klassifikation des Lesesaals
+Wie der Autor der Aufstellungssystematik Oliver Flimm uns mitteilte, sind die Signaturbereiche des Lesesaals nicht abgeschlossen. Es können Medien hinzukommen oder aussortiert werden. Außerdem können zusätzliche Bereiche hinzukommen. Da die Bereiche jeweils numerisch mit Start- und Endnummern eingegrenzt wurden, definiert die Notation die Maximalanzahl an möglichen Titeln. Eine Folge daraus ist, dass das Problem derzeit mit inkonsistenten Notationen umgangen wird. 
+
+Das Vokabular des Lesesaals besteht aus etwa 800 Deskriptoren, befindet sich in zwei Hierachiestufen und liegt wie erwähnt auf deutsch vor. Die höchste Hierarchiestufe betitelt die USB Köln mit "Fachgebiete", die darunterliegende Ebene mit "Grundsignaturen und Untergebiete".
+
+<span style="color:red">Die Bearbeitung der Aufgabe erfolgte händisch, da uns die Auseinandersetzung mit SkoHub Vocabs so direkter und einprägsamer erschien.</span> Insgesamt wurden 46 Deskriptoren übertragen und um englische Übersetzungen ergänzt.
+
 
 ## **2. Zusammenarbeit mit GitHub**
 Zur Zusammenarbeit im Projekt nutzten wir ein Kanban Board auf Github. Dabei arbeiteten wir nicht mit Fristen, sondern mit Zuständigkeiten unter der Maßgabe des
