@@ -1,4 +1,4 @@
-Projektbericht
+# Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs
 
 
 ## **1. Beschreibung des gewählten Vokabulars**
@@ -59,43 +59,10 @@ Erst die Anwendung von RDF/Turtle/SKOS im Projekt allerdings führte zu einem er
 
 Der unmittelbare und basale Nutzen des Projektes besteht darin, einen Teil der Aufstellungssystematik des Lesesaals in ein kontrolliertes und strukturiertes Vokabular übergeführt zu haben. Das neue SkoHub-Vokabular nutzt nun die Vorteile des Semantic Web und Linked Open Data. Zusätzlich wurde das Vokabular um englische Übersetzungen ergänzt.
 
-Ein weiterer Vorteil ist die Ergänzung der Systematik um die SKOS-Konzepte "skos:altLabel" und bei der übergeordneten Hierarchiestufe "skos:exactMatch" 
+Ein weiterer Vorteil ist die Ergänzung der Systematik um die SKOS-Konzepte "skos:altLabel" für eine vereinfachte Suche durch die Eingabe von Synonymen und bei der übergeordneten Hierarchiestufe "skos:exactMatch" bzw. "skos:broadMatch" um die Fachgebiete mit Wikidata zu verknüpfen.
 
-Zudem wurde bei der Implementierung der Ergebnisse der Bearbeitung in SKOS für einzelne Systemstellen die Suche innerhalb der Systematik mit broad matches und alt labels funktionieren. Ein gesuchter, aber nicht vorhandener Begriff führte somit immerhin zu einem inhaltlich trotzdem relevanten Suchergebnis.
-
-
-die Darstellung der Systematik des Lesesaals in Englisch zu ermöglichen. Zudem würde bei der Implementierung der Ergebnisse der Bearbeitung in SKOS für einzelne Systemstellen die Suche innerhalb der Systematik mit broad matches und alt labels funktionieren. Ein gesuchter, aber nicht vorhandener Begriff führte somit immerhin zu einem inhaltlich trotzdem relevanten Suchergebnis.
-
-Angesichts des anzunehmenden Rechercheverhaltens von Nutzer*innen sowie das Vorhandensein der Medien des Lesesaals der USB Köln im Sinne von "Büchertapete" dürfte der praktische Nutzen gleichzeitig begrenzt sein.
+Angesichts des anzunehmenden Rechercheverhaltens von Nutzer*innen sowie das Vorhandensein der Medien des Lesesaals der USB Köln im Sinne einer "Büchertapete" dürfte der praktische Nutzen gleichzeitig begrenzt sein.
 
 Für uns als Bearbeitende ergibt sich in der sowohl mit Git als auch RDF/Turtle/SKOS gesammelten Erfahrung ein unmittelbarer Nutzen, der idealerweise im Weiterverfolgen von Fragen und Aufgaben in diesem Bereich besteht.
 
-
-
-Projekthistorie
-- Zuerst suchten wir nach einer Systematik, die den Anforderungen der Aufgabe entsprechen könnte. Carlos Berbil stellte nach Rücksprache mit einem Mitarbeiter der USB Köln     zwei bereits in yml vorliegende Systematiken vor, die sich als geeignet erwiesen.
-  - Wir entschieden uns für die manuelle Übertragung des Vokabulars, aus folgenden Gründen:
-    - yml enthält wenig Informationen (nicht sehr interessante Datensätze)
-    - man lernt Vorgänge
-    - Der Versuch, die semi-automatisierte Übertragung von yml nach RDF zu verstehen und umzusetzen, ist nach einem mehrstündigen Versuch nicht gelungen.
-      Das simple copy-pasten/Abtippen erwies sich im Rahmen des gewählten Vokabulars dagegen als schnelle und damit praktikable Lösung. Die Auswahl zusätzlichen,
-      anreichernden normierten Vokabulars mittels altLabel, exactMatch usw. erforderte im Einzelfall ohnehin nötige manuelle Recherchearbeit.
-   
-- Auseinandersetzung mit SKOS
-    - Welche Informationen sind sinnvoll zu überführen?
-    - Welche Informationen lassen sich sinnvoll hinzufügen (Bsp. altLabel, exactMatch)
-- Setup PURL
-- Fork Repos aus Original - Skohub-Io
-  - Carlos erstellte Hauptfork
-- Auseinandersetzung mit Github
-    - Pull Requests / Merge / Adminfunktionen / Auto-merge
-    - Arbeit im Hauptfork
-    - Arbeit im Nebenfork
-- Erstellung Kanban Board
-    - Aufteilung von Aufgaben
-- Überführung der Felder aus "USBKöln".yml in SKOS per Hand
-- 
-
-
-Learnings
-- update SKOS dauert einige Minuten
+Durch eine zukünftige Übertragung der kompletten Aufstellungssystematik nach SKOS könnte die Nachnutzung erleichtert werden und eine einfachere Anbindung an normierte Vokabulare für zukünftige Zwecke ermöglicht werden.
