@@ -3,9 +3,7 @@
 Projektbericht Modul MALIS 23.2 IT 2 - Prüfer: Adrian Pohl
 
 Gruppe:
-Carlos Berbil Ceballos
-Marcus Peter
-Ruben Treiber
+Carlos Berbil Ceballos, Marcus Peter, Ruben Treiber
 
 
 ## **1. Beschreibung des gewählten Vokabulars**
