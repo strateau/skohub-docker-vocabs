@@ -5,6 +5,11 @@
     "de": "Psychologie",
     "en": "Psychology"
   },
+  "altLabel": {
+    "de": [
+      "Seelenkunde"
+    ]
+  },
   "notation": [
     "PS"
   ],

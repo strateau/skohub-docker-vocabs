@@ -5,6 +5,11 @@
     "de": "Pädagogik",
     "en": "Pedagogy"
   },
+  "altLabel": {
+    "de": [
+      "Erziehungswissenschaft"
+    ]
+  },
   "notation": [
     "PP"
   ],

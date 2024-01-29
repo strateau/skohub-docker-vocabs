@@ -5,6 +5,11 @@
     "de": "Rechtswissenschaft",
     "en": "Jurisprudence"
   },
+  "altLabel": {
+    "de": [
+      "Jura"
+    ]
+  },
   "notation": [
     "R"
   ],
