@@ -8,6 +8,11 @@
   "notation": [
     "B"
   ],
+  "broadMatch": [
+    {
+      "id": "https://www.wikidata.org/wiki/Q13420675"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://purl.org/systematik_usbls_skos/Lesesaal",
