@@ -41,7 +41,7 @@
  skos:topConceptOf <Lesesaal> .
  
 <K> a skos:Concept ;
- skos:prefLabel "Kunstgeschichte"@de, "Art history"@en ;
+ skos:prefLabel "Kunstgeschichte, Musikwissenschaft"@de, "Art history, Musicology"@en ;
  skos:altLabel "Musicology"@en ; 
  skos:exactMatch <https://www.wikidata.org/wiki/Q50637> ;
  skos:notation "K" ;
