@@ -18,23 +18,25 @@ Das Vokabular des Lesesaals besteht aus etwa 800 Deskriptoren, befindet sich in 
 
 
 ## **2. Zusammenarbeit mit GitHub**
-Zur Zusammenarbeit im Projekt nutzten wir ein Kanban Board auf Github. Dabei arbeiteten wir nicht mit Fristen, sondern mit Zuständigkeiten unter der Maßgabe des
-"alsbald/demnächst zu erledigen". Das detaillierte Besprechen der Augaben erfolgte dagegen über Zoom.
-Da keine Erfahrungen in der Zusammenarbeit mittels Kanban auf Github vorhanden waren, gab es schon beim Einrichten grundlegende Lerneffekte. 
-Die Bedienung erwies sich als einfach. Weitergehende Funktionen blieben allerdings vermutlich ungenutzt. 
-Eine spezifischere Form des Projektmanagements ("agil" etc.) wurde ausdrücklich nicht verfolgt.
-Das Festlegen abgegrenzter Aufgaben gestaltete sich einfach, nach dem Schema "so und viele Stellen der Systematik in SKOS übertragen". 
-Die Arbeiten in Github selbst - das Forken von Repos etc. - liefen als nicht definierte Aufgaben im Hintergrund und wurden im Laufe des Projekts von allen Gruppenmitgliedern wahrgenommen. Gangbarer Weg war schließlich, die Gruppenmitglieder in das Projekt einzuladen, um Änderungen direkt vornehmen zu können und den Umweg über forken und pull requests auszulassen. In Anbetracht des einfachen und überschaubaren Vokabulars erwies sich dieses Vorgehen als einfache und schnelle Lösung. Für komplexere Projekte ist es jedoch sicherlich nicht zu empfehlen. Die Sicherheit in Forks zu arbeiten, wäre hier zu bevorzugen, vor allem, wenn es um die Möglichkeiten funktionsrelevanter Änderungen geht. 
-Grundlegend hat die Bearbeitung der Aufgabe positiv zur Auseinandersetzung mit Github und der Arbeit im Projekteam beigetragen!
 
+Zur Zusammenarbeit im Projekt nutzten wir ein Kanban Board auf Github. Dabei arbeiteten wir nicht mit Fristen, sondern mit Zuständigkeiten unter der Maßgabe des "alsbald/demnächst zu erledigen". Das detaillierte Besprechen der Augaben erfolgte dagegen über Zoom.
+Da keine Erfahrungen in der Zusammenarbeit mittels Kanban auf Github vorhanden waren, gab es schon beim Einrichten grundlegende Lerneffekte. Die Bedienung erwies sich als einfach. Weitergehende Funktionen blieben allerdings vermutlich ungenutzt. 
+Eine spezifischere Form des Projektmanagements ("agil" etc.) wurde ausdrücklich nicht verfolgt.
+Das Festlegen abgegrenzter Aufgaben gestaltete sich einfach, die überliegende Hierarchieebene und die beiden unterliegenden Ebenen wurden jeweils von einer Person bearbeitet.
+Die Arbeiten in Github selbst - das Forken von Repos etc. - liefen als nicht definierte Aufgaben im Hintergrund und wurden im Laufe des Projekts von allen Gruppenmitgliedern wahrgenommen. Gangbarer Weg war schließlich, die Gruppenmitglieder in das Projekt einzuladen, um Änderungen direkt vornehmen zu können und den Umweg über forken und pull requests auszulassen. In Anbetracht des einfachen und überschaubaren Vokabulars erwies sich dieses Vorgehen als einfache und schnelle Lösung. Für komplexere Projekte ist es jedoch sicherlich nicht zu empfehlen. Die Sicherheit in Forks zu arbeiten, wäre hier zu bevorzugen, vor allem, wenn es um die Möglichkeiten funktionsrelevanter Änderungen geht. 
+Grundlegend hat die Bearbeitung der Aufgabe positiv zur Auseinandersetzung mit Github und der Arbeit im Projekteam beigetragen.
 
 
 ## **3. Probleme beim Einrichten des Repos**
-   - Fehlermeldungen aufgrund von falscher Zeichensetzungen, Syntax und Adressierungen
-         - bspw. URIS in Anführungszeichen
-         - bspw. oben ausgewiesene aber nicht erstellte "Klassen" (?)
-         - bspw. Großbuchstaben nicht vergeben bei "prefLabel"
-   - Debugging per skos validator per Github Checks
+
+Nach einem ersten Transfer der Aufstellungssystematik des Lesesaals der USB Köln in unseren skohub-docker-vocabs-Fork gab es Probleme beim Aufbau der SkoHub Vocabs Static Website. Nach weiterer Auseinandersetzung mit Github konnten wir die Fehlermeldungen, die bei der Validierung durch den skohub-vocabs-docker entstanden waren, finden. Hier ließen sich die Fehlerquellen eindeutig identifizieren und die Fehler beheben. Eine große Hilfe innerhalb der Fehlermeldungen war die Sektion "Node, where the error occured". Es handelte sich bei unseren Fehlern hauptsächlich um falsche Zeichensetzung, falsche Syntax oder fehlende Adressierungen wie bspw.:
+
+ - URIS in Anführungszeichen
+ - in "skos:hasTopConcept" ausgewiesene aber nicht erstellte Deskriptoren
+ - in "prefLabel" nicht vergessene Großbuchstaben 
+
+Diese Fehler produzierten einen kritischen "Violation Error" der das Vokabular an der Publizierung hinderte.
+
 
 ## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
 
@@ -49,6 +51,7 @@ Erst die Anwendung von RDF/Turtle/SKOS im Projekt führte allerdings zu einem an
 - SKOS (Simple Knowledge Organisation System): Datenstandard (als Namensraum), um kontrollierte Vokabulare im Semantic Web zu veröffentlichen, diese nutz- und verknüpfbar zu   machen
 Über die Definitionen hinaus erwies sich vor allem die Lektüre zu SKOS in https://www.w3.org/TR/skos-reference/ als ergiebig, wenn es darum ging,
 das bearbeitete Vokabular sinnvoll mit SKOS-Konzepten anzureichern.
+
 
 ## **5. Ausblick und Nutzen/Anwendungsfälle**
 
