@@ -22,7 +22,7 @@ Da keine Erfahrungen in der Zusammenarbeit mittels Kanban auf Github vorhanden w
 Die Bedienung erwies sich als einfach. Weitergehende Funktionen blieben allerdings vermutlich ungenutzt. 
 Eine spezifischere Form des Projektmanagements ("agil" etc.) wurde ausdrücklich nicht verfolgt.
 Das Festlegen abgegrenzter Aufgaben gestaltete sich einfach, nach dem Schema "so und viele Stellen der Systematik in SKOS übertragen". 
-Die Arbeiten in Github selbst - das Forken von Repos etc. - liefen als nicht definierte Aufgaben im Hintergrund und wurden im Laufe des Projekts von allen Gruppenmitgliedern wahrgenommen. Gangbarer Weg war schließlich, die Gruppenmitglieder in das Projekt einzuladen, um Änderungen direkt vornehmen zu können und den Umweg über forken und pull requests auszulassen. In Anbetracht des einfachen und überschaubaren Vokabulars erwies sich dieses Vorgehen als einfache und schnelle Lösung. Für komplexere Projekte ist es jedoch sicherlich nicht zu empfehlen. Die Sicherheit in Forks zu arbeiten, wäre hier zu bevorzugen, vor allem, wenn es um die Möglichkeite funktionsrelevanter Änderungen geht. 
+Die Arbeiten in Github selbst - das Forken von Repos etc. - liefen als nicht definierte Aufgaben im Hintergrund und wurden im Laufe des Projekts von allen Gruppenmitgliedern wahrgenommen. Gangbarer Weg war schließlich, die Gruppenmitglieder in das Projekt einzuladen, um Änderungen direkt vornehmen zu können und den Umweg über forken und pull requests auszulassen. In Anbetracht des einfachen und überschaubaren Vokabulars erwies sich dieses Vorgehen als einfache und schnelle Lösung. Für komplexere Projekte ist es jedoch sicherlich nicht zu empfehlen. Die Sicherheit in Forks zu arbeiten, wäre hier zu bevorzugen, vor allem, wenn es um die Möglichkeiten funktionsrelevanter Änderungen geht. 
 Grundlegend hat die Bearbeitung der Aufgabe positiv zur Auseinandersetzung mit Github und der Arbeit im Projekteam beigetragen!
 
 
@@ -36,7 +36,7 @@ Grundlegend hat die Bearbeitung der Aufgabe positiv zur Auseinandersetzung mit G
 
 ## **4. Verständnis vor und nach Bearbeitung RDF/SKOS**
 
-Vor der Bearbeitung des Projektes gab es in der Gruppe keine oder nur wenig Kenntnisse über RDF/SKOS.
+Vor der Bearbeitung des Projektes gab es in der Gruppe keine oder nur wenige Kenntnisse über RDF/SKOS.
 Grundlegende Informationen dazu wurden in der Lehrveranstaltung vermittelt, diese konnten durch Selbststudium gefestigt und erweitert werden.
 Erst die Anwendung von RDF/Turtle/SKOS im Projekt führte allerdings zu einem ansatzweise praktischen Verständnis, "wozu das Ganze gut ist", das
 über die Definitionen hinausgeht. Der Vollständigkeit halber dennoch zuerst Definitionen, auch um das gewonnene Grundverständnis wiederzugeben:
