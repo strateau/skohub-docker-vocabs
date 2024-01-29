@@ -68,9 +68,9 @@ Folgende SKOS-Properties wurden bei der Bearbeitung verwendet: `skos:prefLabel`,
 
 Der unmittelbare und basale Nutzen des Projektes besteht darin, einen Teil der Aufstellungssystematik des Lesesaals in ein kontrolliertes und strukturiertes Vokabular überführt zu haben. Das neue SkoHub-Vokabular nutzt nun die Vorteile des Semantic Web und Linked Open Data. Zusätzlich wurde das Vokabular um englische Übersetzungen ergänzt.
 
-Ein weiterer Vorteil ist die Ergänzung der Systematik um die SKOS-Konzepte "skos:altLabel" für eine vereinfachte Suche durch die Eingabe von Synonymen und bei der übergeordneten Hierarchiestufe "skos:exactMatch" bzw. "skos:broadMatch" um die Fachgebiete mit Wikidata zu verknüpfen.
+Ein weiterer Vorteil ist die Ergänzung der Systematik um die SKOS-Properties `skos:altLabel` für eine vereinfachte Suche durch die Eingabe von Synonymen und bei der übergeordneten Hierarchiestufe `skos:exactMatch` bzw. `skos:broadMatch` um die Fachgebiete mit Wikidata zu verknüpfen.
 
-Angesichts des anzunehmenden Rechercheverhaltens von Nutzer*innen sowie das Vorhandensein der Medien des Lesesaals der USB Köln im Sinne einer "Büchertapete" dürfte der praktische Nutzen gleichzeitig begrenzt sein.
+Angesichts des zu erwartenden Rechercheverhaltens der Nutzer*innen sowie das Vorhandensein der Medien des Lesesaals der USB Köln im Sinne einer "Büchertapete" dürfte der praktische Nutzen gleichzeitig begrenzt sein.
 
 Für uns als Bearbeitende ergibt sich in der sowohl mit Git als auch RDF/Turtle/SKOS gesammelten Erfahrung ein unmittelbarer Nutzen, der idealerweise im Weiterverfolgen von Fragen und Aufgaben in diesem Bereich besteht.
 
