@@ -2,13 +2,8 @@
   "id": "https://purl.org/systematik_usbls_skos/K",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kunstgeschichte",
-    "en": "Art history"
-  },
-  "altLabel": {
-    "en": [
-      "Musicology"
-    ]
+    "de": "Kunstgeschichte, Musikwissenschaft",
+    "en": "Art history, Musicology"
   },
   "notation": [
     "K"
